@@ -224,6 +224,36 @@ body:has(.academic-profile) .post-header {
   color: var(--global-theme-color);
 }
 
+.news-list {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.news-item time {
+  color: var(--global-theme-color);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.news-item p {
+  margin: 0;
+  font-size: 1rem !important;
+  line-height: 1.55 !important;
+}
+
+.news-item strong {
+  color: #2f3b47;
+  font-weight: 600;
+}
+
 footer.fixed-bottom {
   border-top: 1px solid var(--global-divider-color);
   background: var(--global-footer-bg-color);
@@ -259,5 +289,10 @@ footer.fixed-bottom a {
 
   .academic-profile__identity h1 {
     font-size: 1.75rem;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
   }
 }

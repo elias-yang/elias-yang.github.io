@@ -4,10 +4,10 @@ title: contact
 permalink: /contact/
 description: Contact and professional profiles.
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=3">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=4">
 
 I welcome conversations about autonomous driving, multimodal perception, federated learning, vision-language-action models, and digital twins.
 

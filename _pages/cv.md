@@ -4,10 +4,10 @@ permalink: /cv/
 title: CV
 description: Education, industry experience, research projects, skills, and professional service.
 nav: true
-nav_order: 2
+nav_order: 4
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=3">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=4">
 
 ## Education
 

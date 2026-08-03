@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=3">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=4">
 
 <div class="academic-profile">
   <aside class="academic-profile__identity">
