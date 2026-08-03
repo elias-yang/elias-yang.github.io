@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = Array.from(document.querySelectorAll("[data-theme-filter]"));
   const sections = Array.from(document.querySelectorAll("[data-research-theme]"));
+  const unclassified = document.querySelector("[data-unclassified-publications]");
 
   if (buttons.length === 0 || sections.length === 0) return;
 
@@ -14,6 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     sections.forEach((section) => {
       section.hidden = theme !== "all" && section.dataset.researchTheme !== theme;
     });
+
+    if (unclassified) unclassified.hidden = theme !== "all";
   };
 
   buttons.forEach((button) => {

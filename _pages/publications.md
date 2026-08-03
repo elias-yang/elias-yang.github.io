@@ -2,22 +2,20 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications organized by research theme.
+description: Selected publications.
 nav: true
 nav_order: 3
 ---
 
 <link rel="stylesheet" href="/assets/css/reference-style.css?v=12">
-<script src="/assets/js/publication-filters.js?v=1" defer></script>
+<script src="/assets/js/publication-filters.js?v=2" defer></script>
 
 <div class="publication-filter" role="group" aria-label="Filter publications by research theme">
   <span class="publication-filter__label">Filter</span>
   <button class="publication-filter__button is-active" type="button" data-theme-filter="all" aria-pressed="true">All</button>
   <button class="publication-filter__button" type="button" data-theme-filter="autonomous" aria-pressed="false"><span></span>Autonomous</button>
   <button class="publication-filter__button" type="button" data-theme-filter="federated" aria-pressed="false"><span></span>Federated</button>
-  <button class="publication-filter__button" type="button" data-theme-filter="robustness" aria-pressed="false"><span></span>Robustness</button>
   <button class="publication-filter__button" type="button" data-theme-filter="digital-twin" aria-pressed="false"><span></span>Digital Twin</button>
-  <button class="publication-filter__button" type="button" data-theme-filter="cps" aria-pressed="false"><span></span>CPS &amp; Environment</button>
 </div>
 
 <div class="research-themes">
@@ -45,14 +43,6 @@ nav_order: 3
     </div>
   </section>
 
-  <section class="research-theme" data-research-theme="robustness">
-    <h2>Adversarial Robustness</h2>
-    <p>Robust optimization and stealthy adversarial attacks for multi-task learning systems.</p>
-    <div class="publications">
-      {% bibliography --query @*[project=adversarial] %}
-    </div>
-  </section>
-
   <section class="research-theme" data-research-theme="digital-twin">
     <h2>Digital Twin &amp; Health Intelligence</h2>
     <p>Personalized medical devices, cardiac digital twins, and learning-based healthcare applications.</p>
@@ -61,11 +51,12 @@ nav_order: 3
     </div>
   </section>
 
-  <section class="research-theme" data-research-theme="cps">
-    <h2>Cyber-Physical &amp; Environmental Intelligence</h2>
-    <p>Formal risk analysis for cyber-physical systems and data-driven environmental sensing.</p>
+  <div class="unclassified-publications" data-unclassified-publications>
+    <div class="publications">
+      {% bibliography --query @*[project=adversarial] %}
+    </div>
     <div class="publications">
       {% bibliography --query @*[project=cpsenvironment] %}
     </div>
-  </section>
+  </div>
 </div>
