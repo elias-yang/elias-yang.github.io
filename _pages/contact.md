@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=11">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=12">
 
 I welcome conversations about autonomous driving, multimodal perception, federated learning, vision-language-action models, and digital twins.
 
