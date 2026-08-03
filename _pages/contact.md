@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+<link rel="stylesheet" href="/assets/css/reference-style.css">
+
 I welcome conversations about autonomous driving, multimodal perception, federated learning, vision-language-action models, and digital twins.
 
 - **Email:** [hyang60@vols.utk.edu](mailto:hyang60@vols.utk.edu)

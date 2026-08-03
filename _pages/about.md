@@ -7,7 +7,7 @@ subtitle: Ph.D. student working on intelligent and efficient perception systems
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
     <p>University of Tennessee, Knoxville</p>
     <p>Knoxville, Tennessee, USA</p>
@@ -22,6 +22,8 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<link rel="stylesheet" href="/assets/css/reference-style.css">
 
 I am **Haochen Yang**, a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research interests include vision-language-action models, autonomous driving, machine learning, federated learning, and digital twins for medical devices.
 

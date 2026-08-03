@@ -1,0 +1,207 @@
+/* Visual system aligned with the public academic homepage at zhongkaiyu.github.io. */
+:root {
+  color-scheme: light;
+  --global-bg-color: #f5f2e9 !important;
+  --global-code-bg-color: rgba(181, 9, 172, 0.05) !important;
+  --global-text-color: #000 !important;
+  --global-text-color-light: #828282 !important;
+  --global-theme-color: #a4192c !important;
+  --global-hover-color: #b509ac !important;
+  --global-hover-text-color: #fff !important;
+  --global-footer-bg-color: #1c1c1d !important;
+  --global-footer-text-color: #e8e8e8 !important;
+  --global-footer-link-color: #fff !important;
+  --global-divider-color: rgba(0, 0, 0, 0.1) !important;
+  --global-card-bg-color: #fff !important;
+  --global-highlight-color: #b71c1c !important;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --global-bg-color: #2b313f !important;
+  --global-code-bg-color: #2c3237 !important;
+  --global-text-color: #e8e8e8 !important;
+  --global-text-color-light: #828282 !important;
+  --global-theme-color: #ff8a00 !important;
+  --global-hover-color: #2698ba !important;
+  --global-hover-text-color: #fff !important;
+  --global-footer-bg-color: #e8e8e8 !important;
+  --global-footer-text-color: #1c1c1d !important;
+  --global-footer-link-color: #000 !important;
+  --global-divider-color: #424246 !important;
+  --global-card-bg-color: #212529 !important;
+  --global-highlight-color: #ff8a00 !important;
+}
+
+body {
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.container {
+  max-width: 930px;
+}
+
+a,
+table.table a {
+  color: var(--global-theme-color);
+}
+
+a:hover,
+table.table a:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--global-divider-color);
+  background-color: var(--global-bg-color);
+  box-shadow: none;
+  opacity: 0.95;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: var(--global-text-color);
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  color: var(--global-theme-color);
+}
+
+#light-toggle:hover,
+#search-toggle:hover {
+  color: var(--global-hover-color);
+}
+
+.post-header .post-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.post-header .desc,
+.post-description {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.profile {
+  width: 100%;
+}
+
+.profile img,
+.profile img.rounded-circle {
+  width: 100%;
+  border-radius: 0.75rem !important;
+}
+
+.profile .more-info {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: monospace;
+}
+
+.profile .more-info p {
+  display: inline-block;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 30%;
+  }
+
+  .profile .more-info p {
+    display: block;
+  }
+}
+
+.post article p,
+.post article li {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.post article h2 {
+  margin-top: 1.65rem;
+  margin-bottom: 0.48rem;
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.post article h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.35rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.post article li {
+  margin-bottom: 0.3rem;
+}
+
+.publications {
+  margin-top: 0.65rem;
+}
+
+.publications ol.bibliography li {
+  margin-bottom: 0.8rem;
+  line-height: 1.45;
+}
+
+.publications ol.bibliography li .title {
+  margin-bottom: 0.08rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.publications ol.bibliography li .author,
+.publications ol.bibliography li .periodical {
+  line-height: 1.35;
+}
+
+.publications ol.bibliography li .author > em {
+  border-bottom: 1px solid;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.publications ol.bibliography li .links a.btn {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.social .contact-icons a:hover i::before {
+  color: var(--global-theme-color);
+}
+
+footer.fixed-bottom {
+  background-color: var(--global-footer-bg-color);
+  color: var(--global-footer-text-color);
+}
+
+footer.fixed-bottom .container {
+  color: var(--global-footer-text-color);
+}
+
+footer.fixed-bottom a {
+  color: var(--global-footer-link-color);
+}
+
+@media (max-width: 575.98px) {
+  .post-header .post-title {
+    font-size: 1.9rem;
+  }
+
+  .post article p,
+  .post article li {
+    font-size: 1.04rem;
+  }
+
+  .post article h2 {
+    font-size: 1.35rem;
+  }
+}
