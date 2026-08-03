@@ -73,19 +73,6 @@ table.table a:hover {
   font-size: 0.9rem;
 }
 
-body:has(.home-name) .post-header {
-  display: none;
-}
-
-.home-name {
-  margin: 0 0 1.55rem;
-  color: #fff;
-  font-size: 2.15rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.15;
-}
-
 .profile {
   width: 100%;
 }
@@ -106,7 +93,7 @@ body:has(.home-name) .post-header {
   }
 }
 
-body:has(.home-name) .post article h2 {
+body:has(.profile) .post article h2 {
   clear: both;
 }
 
@@ -237,10 +224,6 @@ footer.fixed-bottom a {
 
 @media (max-width: 575.98px) {
   .post-header .post-title {
-    font-size: 1.85rem;
-  }
-
-  .home-name {
     font-size: 1.85rem;
   }
 

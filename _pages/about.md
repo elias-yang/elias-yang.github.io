@@ -1,10 +1,9 @@
 ---
 layout: about
-title: About
+title: Haochen Yang
 permalink: /
 subtitle:
-nav: true
-nav_order: 1
+nav: false
 
 profile:
   align: right
@@ -22,8 +21,6 @@ latest_posts:
 ---
 
 <link rel="stylesheet" href="/assets/css/reference-style.css?v=7">
-
-<h1 class="home-name">Haochen Yang</h1>
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models**, **autonomous driving**, and **digital twin**.
 
