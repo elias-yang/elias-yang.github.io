@@ -122,14 +122,6 @@ body:has(.profile) .post article h2 {
   font-weight: 700;
 }
 
-.education-list__advisor {
-  color: #c8ccd3;
-}
-
-.education-list__advisor span {
-  color: var(--global-theme-color);
-}
-
 .post article p,
 .post article li {
   color: var(--global-text-color);

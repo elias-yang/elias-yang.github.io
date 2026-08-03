@@ -34,21 +34,17 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
   <li>
     <div><strong>University of Tennessee, Knoxville</strong>, 2026–Present</div>
     <div>Ph.D. student in Computer Science</div>
-    <div class="education-list__advisor">Advisor: <span>Hongkai Yu</span></div>
   </li>
   <li>
     <div><strong>Cleveland State University</strong>, 2024–2026</div>
     <div>Ph.D. study in Computer Science</div>
-    <div class="education-list__advisor">Advisors: <span>Tianyun Zhang</span> and <span>Hongkai Yu</span></div>
   </li>
   <li>
     <div><strong>ShanghaiTech University</strong>, 2020–2023</div>
     <div>M.S. in Computer Science and Technology</div>
-    <div class="education-list__advisor">Advisor: <span>Zhihao Jiang</span></div>
   </li>
   <li>
     <div><strong>University of Jinan</strong>, 2016–2020</div>
     <div>B.S. in Computer Science and Technology</div>
-    <div class="education-list__advisor">Advisor: <span>Sijie Niu</span></div>
   </li>
 </ul>
