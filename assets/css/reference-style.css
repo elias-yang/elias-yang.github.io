@@ -184,22 +184,9 @@ body:has(.academic-profile) .post-header {
   font-weight: 500;
 }
 
-.academic-profile__education span,
-.academic-profile__experience span {
+.academic-profile__education span {
   margin-top: 0.12rem;
   color: #6c757d;
-}
-
-.academic-profile__experience {
-  margin-top: 1.4rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.academic-profile__experience p {
-  margin: 0;
-  font-size: 0.98rem !important;
-  line-height: 1.45 !important;
 }
 
 .post-header .post-title {

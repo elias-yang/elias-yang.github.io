@@ -64,10 +64,5 @@ nav_order: 1
       </section>
     </div>
 
-    <section class="academic-profile__experience">
-      <h3>Experience</h3>
-      <p><strong>Senior Engineer</strong><span>Primarius Technologies Co., Ltd. · Shanghai, China · Jul. 2023–Jul. 2024</span></p>
-    </section>
-
   </section>
 </div>
