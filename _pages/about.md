@@ -2,14 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher in multimodal perception, trustworthy AI, and cyber-physical systems
+subtitle: Ph.D. student working on intelligent and efficient perception systems
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>University of Tennessee</p>
+    <p>University of Tennessee, Knoxville</p>
+    <p>Knoxville, Tennessee, USA</p>
+    <p><a href="mailto:hyang60@vols.utk.edu">hyang60@vols.utk.edu</a></p>
 
 selected_papers: true
 social: true
@@ -21,10 +23,22 @@ latest_posts:
   enabled: false
 ---
 
-I am **Haochen Yang**, also known as **Elias Yang**. My work spans multimodal perception, trustworthy and efficient machine learning, digital twins for medical systems, and cyber-physical systems.
+I am **Haochen Yang**, also known as **Elias Yang**, a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research interests include vision-language-action models, autonomous driving, machine learning, federated learning, and digital twins for medical devices.
 
-My recent research explores robust perception under adverse conditions, cooperative and multimodal 3D understanding, adversarial robustness, and efficient model training. Earlier work focused on model-based safety analysis and personalized digital-twin methods for implantable medical devices.
+My recent work focuses on robust multimodal 3D perception, cooperative perception, low-light driving, and communication-efficient federated learning. I also have industry experience developing high-performance circuit simulation and debugging tools.
 
-My academic journey has taken me from the **University of Jinan** to **ShanghaiTech University**, **Cleveland State University**, and the **University of Tennessee**.
+## Education
 
-Please see [Research](/research/) for an overview, [Publications](/publications/) for the complete public record, and [Contact](/contact/) for ways to connect.
+- **University of Tennessee, Knoxville** — Ph.D. in Computer Science, Aug. 2026–Present
+- **Cleveland State University** — Ph.D. study in Computer Science, Sep. 2024–Mar. 2026
+- **ShanghaiTech University** — M.S. in Computer Science and Technology, Sep. 2020–Jun. 2023
+- **University of Jinan** — B.S. in Computer Science and Technology, Sep. 2016–Jun. 2020
+
+## Experience
+
+**Primarius Technologies Co., Ltd.** — Senior Engineer, Shanghai, China<br>
+Jul. 2023–Jul. 2024
+
+Worked on FastSPICE simulation performance and parallel-simulation debugging tools, including circuit partitioning, load balancing, delay tracking, and numerical error analysis.
+
+Please see [Research](/research/) for current projects, [Publications](/publications/) for the publication list, and [CV / Experience](/cv/) for details.

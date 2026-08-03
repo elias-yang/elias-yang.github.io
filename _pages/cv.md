@@ -2,28 +2,70 @@
 layout: page
 permalink: /cv/
 title: CV / Experience
-description: Research profile and experience highlights.
+description: Education, industry experience, research projects, skills, and professional service.
 nav: true
 nav_order: 4
 ---
 
-## Academic journey
+## Education
 
-1. **University of Jinan**
-2. **ShanghaiTech University**
-3. **Cleveland State University**
-4. **University of Tennessee**
+### University of Tennessee, Knoxville
 
-Detailed degree, position, and date information will be added when confirmed.
+**Ph.D. in Computer Science**, Aug. 2026–Present<br>
+Knoxville, Tennessee, USA · Advisor: Prof. Hongkai Yu
 
-## Research experience
+### Cleveland State University
 
-- **Multimodal perception and autonomous systems** — all-weather 3D detection, cooperative perception, and day/night autonomous-driving data.
-- **Trustworthy and efficient machine learning** — adversarial robustness and dynamic sparse training.
-- **Medical cyber-physical systems** — digital twins, personalized therapy, and model-based pre-clinical trials for implantable devices.
+**Ph.D. study in Computer Science**, Sep. 2024–Mar. 2026<br>
+Cleveland, Ohio, USA · Advisors: Prof. Tianyun Zhang and Prof. Hongkai Yu
 
-## Publication record
+### ShanghaiTech University
 
-The public record currently includes work published or accepted at venues including CVPR, ACM Multimedia, AAAI, ICASSP, ICCPS, IEEE EMBC, and _Expert Systems with Applications_. See [Publications](/publications/) for details.
+**M.S. in Computer Science and Technology**, Sep. 2020–Jun. 2023<br>
+Shanghai, China · Advisor: Prof. Zhihao Jiang<br>
+Thesis: “Cardiac Digital Twin for Parameter Personalization of Implantable Cardioverter Defibrillators”
 
-> A downloadable CV, detailed degree history, appointments, honors, and service activities can be added once those materials are provided.
+### University of Jinan
+
+**B.S. in Computer Science and Technology**, Sep. 2016–Jun. 2020<br>
+Jinan, China · GPA: 3.84/4.0 · Advisor: Prof. Sijie Niu<br>
+Thesis: “Cloud Trajectory Prediction Based on Convolutional LSTM Neural Network”
+
+## Industry experience
+
+### Primarius Technologies Co., Ltd.
+
+**Senior Engineer**, Jul. 2023–Jul. 2024 · Shanghai, China
+
+- Improved FastSPICE simulation performance through SCC-based topological sorting and DRAM circuit partitioning, reducing inter-partition coupling and improving parallel load balancing; achieved a 1.2× efficiency gain in large-scale simulations.
+- Developed delay-tracking and debugging tools for parallel simulations, analyzed Newton-Raphson errors across time steps, and optimized tolerance algorithms to reduce simulation errors.
+
+## Research projects
+
+### Robust 3D perception for autonomous driving
+
+- **Unsupervised multi-agent and single-agent perception (CVPR 2026):** Developed a fully unsupervised framework that uses cooperative multi-agent observations to supervise single-agent perception.
+- **Domain-aware all-weather detection (ACM Multimedia 2025):** Developed DA3D, using dynamic LoRA-based capacity allocation for multimodal LiDAR-radar 3D perception under adverse weather.
+
+### Low-light enhancement in traffic scenarios
+
+- **DarkDriving (ICRA 2026):** Constructed a pixel-level aligned real-world day-night driving dataset and an automatic trajectory-tracking pose-matching system for centimeter-level spatial alignment.
+
+### Efficient federated learning for edge intelligence
+
+- **PFFDST (AAAI 2025):** Developed parameter-freezing-based federated dynamic sparse training, reducing communication cost by 4–8× while improving model accuracy.
+- **FedSTA (TCSVT):** Developed spatio-temporal task alternation to mitigate negative transfer in federated multi-task learning while reducing communication cost and model parameters.
+
+## Research interests
+
+Vision-language-action models · Autonomous driving · Machine learning · Federated learning · Digital twins for medical devices
+
+## Technical skills
+
+- **Programming:** Python, C++, MATLAB
+- **Machine learning:** PyTorch, TensorFlow
+
+## Professional service
+
+- **Conference reviewer:** CVPR 2026, ECCV 2026, AAAI 2026
+- **Journal reviewer:** _Expert Systems with Applications_, _IEEE Transactions on Intelligent Vehicles_, _Green Energy and Intelligent Transportation_, and _IEEE Sensors Journal_

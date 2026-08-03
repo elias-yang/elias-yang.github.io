@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Trustworthy and efficient AI
-description: Adversarial robustness and resource-efficient training for modern learning systems.
+title: Low-light driving perception
+description: Aligned day-night data and robust perception for dark traffic environments.
 importance: 2
 category: research
 ---
 
-This work studies how learning systems fail under coordinated adversarial objectives and how they can be trained more efficiently.
+**DarkDriving** provides pixel-level aligned real-world day-night driving data for studying low-light perception.
 
-Representative topics include stealthy multi-task attacks, robust min-max formulations, and dynamic sparse training based on parameter freezing.
+The project includes an automatic trajectory-tracking pose-matching system designed to achieve centimeter-level spatial alignment in dynamic driving scenarios.
 
 [View related publications](/publications/)

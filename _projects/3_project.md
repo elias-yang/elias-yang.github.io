@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Digital twins for medical systems
-description: Personalized decision support and safety analysis for implantable medical devices.
+title: Efficient federated learning
+description: Communication- and parameter-efficient multi-task learning for edge intelligence.
 importance: 3
 category: research
 ---
 
-This research combines digital twins, online personalization, and formal safety analysis for implantable medical devices.
+This research explores efficient federated learning through dynamic sparse training, parameter freezing, and task-aware optimization.
 
-Representative work covers personalized therapy decision support, parameter personalization for implantable cardiac defibrillators, and statistical model checking for model-based pre-clinical trials.
+Representative work includes **PFFDST**, which reduces communication cost while improving accuracy, and **FedSTA**, which mitigates negative transfer in federated multi-task learning.
 
 [View related publications](/publications/)

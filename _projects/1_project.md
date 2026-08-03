@@ -1,13 +1,13 @@
 ---
 layout: page
-title: All-weather multimodal perception
-description: Robust 3D and cooperative perception across weather, lighting, and viewpoints.
+title: Robust 3D perception for autonomous driving
+description: Cooperative and all-weather multimodal perception for reliable autonomous systems.
 importance: 1
 category: research
 ---
 
-This research direction develops perception systems that can adapt across domains and combine complementary sensors or cooperative viewpoints.
+This research develops 3D perception systems that learn from cooperative observations and remain robust across weather and sensor domains.
 
-Representative work includes **DA3D** for domain-aware dynamic adaptation in all-weather multimodal 3D detection, **DarkDriving** for aligned day/night autonomous-driving data, and unsupervised cooperative perception from multiple views.
+Representative work includes unsupervised multi-agent supervision for single-agent perception and **DA3D**, a domain-aware adaptation method for all-weather LiDAR-radar 3D detection.
 
 [View related publications](/publications/)

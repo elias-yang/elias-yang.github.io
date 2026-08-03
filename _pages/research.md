@@ -2,19 +2,23 @@
 layout: page
 title: research
 permalink: /research/
-description: Research themes spanning perception, trustworthy AI, and cyber-physical systems.
+description: Research in autonomous systems, efficient learning, and digital twins.
 nav: true
 nav_order: 1
 ---
 
-## Multimodal and cooperative perception
+## Vision-language-action models and autonomous driving
 
-I study perception systems that remain useful across weather, lighting, sensor, and viewpoint changes. Recent work includes domain-aware adaptation for multimodal 3D detection, day/night autonomous-driving data, and cooperative perception from multiple views.
+I am interested in learning systems that connect visual perception, language understanding, and action for autonomous agents, with a focus on robust operation in complex driving environments.
 
-## Trustworthy and efficient AI
+## Robust multimodal and cooperative perception
 
-My work investigates both the reliability and efficiency of learned systems, including stealthy multi-task adversarial attacks, min-max formulations for robust attacks, and dynamic sparse training with parameter freezing.
+My research develops 3D perception systems that learn from cooperative viewpoints and adapt across weather, lighting, and sensor domains. Current directions include unsupervised multi-agent supervision, all-weather LiDAR-radar detection, and aligned day-night driving data.
 
-## Digital twins and medical cyber-physical systems
+## Efficient federated learning
 
-I develop model-based and data-driven methods for safety-critical medical systems. This includes digital-twin decision support, online parameter personalization for implantable cardiac defibrillators, and statistical model checking for pre-clinical trials.
+I study communication- and parameter-efficient federated learning for edge intelligence, including dynamic sparse training, parameter freezing, and spatio-temporal task alternation for multi-task models.
+
+## Digital twins for medical devices
+
+My earlier work developed digital-twin and model-based methods for personalized therapy, parameter personalization, and safety analysis of implantable medical devices.
