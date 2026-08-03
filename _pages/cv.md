@@ -2,7 +2,7 @@
 layout: page
 permalink: /cv/
 title: CV
-description: Education, industry experience, research projects, skills, and professional service.
+description: Education, research and industry experience, research projects, skills, and professional service.
 nav: true
 nav_order: 2
 ---
@@ -32,6 +32,13 @@ Thesis: “Cardiac Digital Twin for Parameter Personalization of Implantable Car
 **B.S. in Computer Science and Technology**, Sep. 2016–Jun. 2020<br>
 Jinan, China · GPA: 3.84/4.0 · Advisor: Prof. Sijie Niu<br>
 Thesis: “Cloud Trajectory Prediction Based on Convolutional LSTM Neural Network”
+
+## Research experience
+
+### University of Minnesota, Twin Cities
+
+**Research Intern**, Summer 2026 · Minneapolis, Minnesota, USA<br>
+Advisor: [Prof. Caiwen Ding](https://cse.umn.edu/cs/caiwen-ding)
 
 ## Industry experience
 

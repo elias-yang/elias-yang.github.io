@@ -34,9 +34,8 @@ My recent work focuses on robust multimodal 3D perception, cooperative perceptio
 
 ## Experience
 
+**University of Minnesota, Twin Cities** — Research Intern, Minneapolis, Minnesota<br>
+Summer 2026 · Advisor: [Prof. Caiwen Ding](https://cse.umn.edu/cs/caiwen-ding)
+
 **Primarius Technologies Co., Ltd.** — Senior Engineer, Shanghai, China<br>
 Jul. 2023–Jul. 2024
-
-Worked on FastSPICE simulation performance and parallel-simulation debugging tools, including circuit partitioning, load balancing, delay tracking, and numerical error analysis.
-
-Please see [Publications](/publications/) for the complete publication list and [CV](/cv/) for detailed experience.
