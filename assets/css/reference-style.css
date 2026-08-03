@@ -57,6 +57,10 @@ table.table a:hover {
   color: var(--global-theme-color);
 }
 
+.navbar-menu-list > .nav-item:first-child {
+  display: none;
+}
+
 .post-header .post-title {
   margin-bottom: 0.35rem;
   color: #fff;
@@ -224,7 +228,7 @@ body:has(.profile) .post article h2 {
   position: relative;
   min-height: 3rem;
   margin: 0;
-  padding-left: 8.2rem;
+  padding-left: 8.75rem;
 }
 
 .publications ol.bibliography li .col-sm-10 {
@@ -237,7 +241,8 @@ body:has(.profile) .post article h2 {
   position: absolute;
   top: 0.1rem;
   left: 0;
-  width: 6.9rem;
+  box-sizing: border-box;
+  width: 7.75rem;
   padding: 0.3rem 0.45rem;
   border-radius: 0.35rem;
   color: #202633;

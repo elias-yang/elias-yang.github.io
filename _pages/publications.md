@@ -7,15 +7,15 @@ nav: true
 nav_order: 3
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=8">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=9">
 <script src="/assets/js/publication-filters.js?v=1" defer></script>
 
 <div class="publication-filter" role="group" aria-label="Filter publications by research theme">
   <span class="publication-filter__label">Filter</span>
   <button class="publication-filter__button is-active" type="button" data-theme-filter="all" aria-pressed="true">All</button>
-  <button class="publication-filter__button" type="button" data-theme-filter="autonomous" aria-pressed="false"><span></span>Autonomous Perception</button>
-  <button class="publication-filter__button" type="button" data-theme-filter="federated" aria-pressed="false"><span></span>Federated Learning</button>
-  <button class="publication-filter__button" type="button" data-theme-filter="robustness" aria-pressed="false"><span></span>Adversarial Robustness</button>
+  <button class="publication-filter__button" type="button" data-theme-filter="autonomous" aria-pressed="false"><span></span>Autonomous</button>
+  <button class="publication-filter__button" type="button" data-theme-filter="federated" aria-pressed="false"><span></span>Federated</button>
+  <button class="publication-filter__button" type="button" data-theme-filter="robustness" aria-pressed="false"><span></span>Robustness</button>
   <button class="publication-filter__button" type="button" data-theme-filter="digital-twin" aria-pressed="false"><span></span>Digital Twin</button>
   <button class="publication-filter__button" type="button" data-theme-filter="cps" aria-pressed="false"><span></span>CPS &amp; Environment</button>
 </div>
