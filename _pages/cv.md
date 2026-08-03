@@ -40,7 +40,6 @@ Thesis: “Cloud Trajectory Prediction Based on Convolutional LSTM Neural Networ
 **Senior Engineer**, Jul. 2023–Jul. 2024 · Shanghai, China
 
 - Improved FastSPICE simulation performance through SCC-based topological sorting and DRAM circuit partitioning, reducing inter-partition coupling and improving parallel load balancing; achieved a 1.2× efficiency gain in large-scale simulations.
-- Developed delay-tracking and debugging tools for parallel simulations, analyzed Newton-Raphson errors across time steps, and optimized tolerance algorithms to reduce simulation errors.
 
 ## Research projects
 

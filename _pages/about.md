@@ -23,7 +23,7 @@ latest_posts:
 
 I am **Haochen Yang**, a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research interests include vision-language-action models, autonomous driving, machine learning, federated learning, and digital twins for medical devices.
 
-My recent work focuses on robust multimodal 3D perception, cooperative perception, low-light driving, and communication-efficient federated learning. I also have industry experience developing high-performance circuit simulation and debugging tools.
+My recent work focuses on robust multimodal 3D perception, cooperative perception, low-light driving, and communication-efficient federated learning. I also have industry experience in high-performance circuit simulation.
 
 ## Education
 
