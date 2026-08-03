@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=2">
 
 Publication metadata is based on my public [Google Scholar profile](https://scholar.google.com/citations?user=nY-BhuYAAAAJ&hl=en). Please refer to Scholar for current citation counts.
 
