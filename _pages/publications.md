@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=6">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=7">
 
 {% include bib_search.liquid %}
 

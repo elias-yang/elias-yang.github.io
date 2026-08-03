@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=6">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=7">
 
 <div class="news-list">
   <article class="news-item">
