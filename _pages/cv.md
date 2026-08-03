@@ -59,7 +59,7 @@ Thesis: “Cloud Trajectory Prediction Based on Convolutional LSTM Neural Networ
 
 ## Research interests
 
-Vision-language-action models · Autonomous driving · Machine learning · Federated learning · Digital twins for medical devices
+Vision-language-action models · Autonomous driving · Digital twin
 
 ## Technical skills
 
