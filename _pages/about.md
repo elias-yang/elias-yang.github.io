@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=10">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=11">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models**, **autonomous driving**, and **digital twin**.
 
@@ -30,7 +30,25 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
 
 ## Education
 
-- **University of Tennessee, Knoxville** — Ph.D. in Computer Science, 2026–Present · Advisor: Prof. Hongkai Yu
-- **Cleveland State University** — Ph.D. study in Computer Science, 2024–2026 · Advisors: Prof. Tianyun Zhang and Prof. Hongkai Yu
-- **ShanghaiTech University** — M.S. in Computer Science and Technology, 2020–2023 · Advisor: Prof. Zhihao Jiang
-- **University of Jinan** — B.S. in Computer Science and Technology, 2016–2020 · Advisor: Prof. Sijie Niu
+<ul class="education-list">
+  <li>
+    <div><strong>University of Tennessee, Knoxville</strong>, 2026–Present</div>
+    <div>Ph.D. student in Computer Science</div>
+    <div class="education-list__advisor">Advisor: <span>Hongkai Yu</span></div>
+  </li>
+  <li>
+    <div><strong>Cleveland State University</strong>, 2024–2026</div>
+    <div>Ph.D. study in Computer Science</div>
+    <div class="education-list__advisor">Advisors: <span>Tianyun Zhang</span> and <span>Hongkai Yu</span></div>
+  </li>
+  <li>
+    <div><strong>ShanghaiTech University</strong>, 2020–2023</div>
+    <div>M.S. in Computer Science and Technology</div>
+    <div class="education-list__advisor">Advisor: <span>Zhihao Jiang</span></div>
+  </li>
+  <li>
+    <div><strong>University of Jinan</strong>, 2016–2020</div>
+    <div>B.S. in Computer Science and Technology</div>
+    <div class="education-list__advisor">Advisor: <span>Sijie Niu</span></div>
+  </li>
+</ul>
