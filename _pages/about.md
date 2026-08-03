@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>University of Tennessee, Knoxville</p>
-    <p>Knoxville, Tennessee, USA</p>
-    <p><a href="mailto:hyang60@vols.utk.edu">hyang60@vols.utk.edu</a></p>
 
 selected_papers: true
 social: true
