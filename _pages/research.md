@@ -18,7 +18,3 @@ My work investigates both the reliability and efficiency of learned systems, inc
 ## Digital twins and medical cyber-physical systems
 
 I develop model-based and data-driven methods for safety-critical medical systems. This includes digital-twin decision support, online parameter personalization for implantable cardiac defibrillators, and statistical model checking for pre-clinical trials.
-
-## Data-driven health and environmental applications
-
-Earlier projects applied learning methods to synthetic-lethality prediction, vulnerable-plaque identification, and rainfall-rate estimation.

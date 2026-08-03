@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>Cleveland State University</p>
-    <p>Cleveland, Ohio, USA</p>
+    <p>University of Tennessee</p>
 
 selected_papers: true
 social: true
@@ -22,8 +21,10 @@ latest_posts:
   enabled: false
 ---
 
-I am **Haochen Yang**, also known as **Elias Yang**, a researcher affiliated with Cleveland State University. My work spans multimodal perception, trustworthy and efficient machine learning, digital twins for medical systems, and cyber-physical systems.
+I am **Haochen Yang**, also known as **Elias Yang**. My work spans multimodal perception, trustworthy and efficient machine learning, digital twins for medical systems, and cyber-physical systems.
 
 My recent research explores robust perception under adverse conditions, cooperative and multimodal 3D understanding, adversarial robustness, and efficient model training. Earlier work focused on model-based safety analysis and personalized digital-twin methods for implantable medical devices.
+
+My academic journey has taken me from the **University of Jinan** to **ShanghaiTech University**, **Cleveland State University**, and the **University of Tennessee**.
 
 Please see [Research](/research/) for an overview, [Publications](/publications/) for the complete public record, and [Contact](/contact/) for ways to connect.

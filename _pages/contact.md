@@ -9,8 +9,8 @@ nav_order: 5
 
 I welcome conversations about multimodal perception, trustworthy AI, efficient learning, digital twins, and cyber-physical systems.
 
-- **Affiliation:** Cleveland State University
+- **Current institution:** University of Tennessee
 - **Google Scholar:** [Haochen Yang](https://scholar.google.com/citations?user=nY-BhuYAAAAJ&hl=en)
 - **GitHub:** [elias-yang](https://github.com/elias-yang)
 
-For direct correspondence, please use the contact information associated with my verified Cleveland State University profile. A public email address can be added here when confirmed.
+A public email address can be added here when confirmed.
