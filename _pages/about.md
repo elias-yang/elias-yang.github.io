@@ -30,7 +30,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
 
 ## Education
 
-- **University of Tennessee, Knoxville** — Ph.D. in Computer Science, 2026–Present
-- **Cleveland State University** — Ph.D. study in Computer Science, 2024–2026
-- **ShanghaiTech University** — M.S. in Computer Science and Technology, 2020–2023
-- **University of Jinan** — B.S. in Computer Science and Technology, 2016–2020
+- **University of Tennessee, Knoxville** — Ph.D. in Computer Science, 2026–Present · Advisor: Prof. Hongkai Yu
+- **Cleveland State University** — Ph.D. study in Computer Science, 2024–2026 · Advisors: Prof. Tianyun Zhang and Prof. Hongkai Yu
+- **ShanghaiTech University** — M.S. in Computer Science and Technology, 2020–2023 · Advisor: Prof. Zhihao Jiang
+- **University of Jinan** — B.S. in Computer Science and Technology, 2016–2020 · Advisor: Prof. Sijie Niu
