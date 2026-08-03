@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /cv/
-title: CV / Experience
+title: CV
 description: Education, industry experience, research projects, skills, and professional service.
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 ## Education

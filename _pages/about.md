@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Haochen Yang**, also known as **Elias Yang**, a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research interests include vision-language-action models, autonomous driving, machine learning, federated learning, and digital twins for medical devices.
+I am **Haochen Yang**, a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research interests include vision-language-action models, autonomous driving, machine learning, federated learning, and digital twins for medical devices.
 
 My recent work focuses on robust multimodal 3D perception, cooperative perception, low-light driving, and communication-efficient federated learning. I also have industry experience developing high-performance circuit simulation and debugging tools.
 
@@ -41,4 +41,4 @@ Jul. 2023–Jul. 2024
 
 Worked on FastSPICE simulation performance and parallel-simulation debugging tools, including circuit partitioning, load balancing, delay tracking, and numerical error analysis.
 
-Please see [Research](/research/) for current projects, [Publications](/publications/) for the publication list, and [CV / Experience](/cv/) for details.
+Please see [Publications](/publications/) for the complete publication list and [CV](/cv/) for detailed experience.

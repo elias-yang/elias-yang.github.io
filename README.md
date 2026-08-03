@@ -1,4 +1,4 @@
-# Elias Yang / Haochen Yang — Academic Homepage
+# Haochen Yang — Academic Homepage
 
 Source for [elias-yang.github.io](https://elias-yang.github.io), built with the [al-folio](https://github.com/alshedivat/al-folio) academic website starter.
 

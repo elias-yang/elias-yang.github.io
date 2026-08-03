@@ -3,8 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected research directions represented by public work.
-nav: true
-nav_order: 3
+nav: false
 display_categories: [research]
 horizontal: true
 ---

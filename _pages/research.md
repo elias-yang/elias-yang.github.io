@@ -3,8 +3,7 @@ layout: page
 title: research
 permalink: /research/
 description: Research in autonomous systems, efficient learning, and digital twins.
-nav: true
-nav_order: 1
+nav: false
 ---
 
 ## Vision-language-action models and autonomous driving
