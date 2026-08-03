@@ -1,19 +1,19 @@
 /* Visual system aligned with the public academic homepage at zhongkaiyu.github.io. */
 :root {
-  color-scheme: light;
-  --global-bg-color: #f5f2e9 !important;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05) !important;
-  --global-text-color: #000 !important;
+  color-scheme: dark;
+  --global-bg-color: #2b313f !important;
+  --global-code-bg-color: #2c3237 !important;
+  --global-text-color: #e8e8e8 !important;
   --global-text-color-light: #828282 !important;
-  --global-theme-color: #a4192c !important;
-  --global-hover-color: #b509ac !important;
+  --global-theme-color: #ff8a00 !important;
+  --global-hover-color: #2698ba !important;
   --global-hover-text-color: #fff !important;
-  --global-footer-bg-color: #1c1c1d !important;
-  --global-footer-text-color: #e8e8e8 !important;
-  --global-footer-link-color: #fff !important;
-  --global-divider-color: rgba(0, 0, 0, 0.1) !important;
-  --global-card-bg-color: #fff !important;
-  --global-highlight-color: #b71c1c !important;
+  --global-footer-bg-color: #e8e8e8 !important;
+  --global-footer-text-color: #1c1c1d !important;
+  --global-footer-link-color: #000 !important;
+  --global-divider-color: #424246 !important;
+  --global-card-bg-color: #212529 !important;
+  --global-highlight-color: #ff8a00 !important;
 }
 
 html[data-theme="dark"] {
