@@ -7,7 +7,7 @@ nav: false
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: haochen-yang-profile.png
   image_circular: false
 
 selected_papers: false
