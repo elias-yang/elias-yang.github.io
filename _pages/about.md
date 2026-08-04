@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=26">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=27">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
@@ -38,67 +38,6 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
     <span class="home-news-rule" aria-hidden="true"></span>
   </header>
   <div class="home-news-list"></div>
-</section>
-
-<section class="home-projects-section" aria-labelledby="selected-publications-heading">
-  <header class="home-projects-header">
-    <div>
-      <span class="home-projects-eyebrow">Featured Research</span>
-      <h2 id="selected-publications-heading">Selected Publications</h2>
-    </div>
-    <a class="home-projects-all" href="/publications/">All Publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-  </header>
-
-  <div class="home-publication-list">
-    <article class="home-publication-item">
-      <a class="home-publication-visual" href="/publications/#yang2026cooperative" aria-label="View the CVPR 2026 publication">
-        <img src="/assets/img/publications/ums-teaser.webp" alt="Illustration comparing single-view and cooperative-view 3D perception" width="900" height="726" loading="eager" decoding="async">
-      </a>
-      <div class="home-publication-content">
-        <div class="home-publication-meta"><span>CVPR 2026</span><span>3D Perception</span></div>
-        <h3><a href="/publications/#yang2026cooperative">Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views</a></h3>
-        <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
-        <a class="home-publication-link" href="/publications/#yang2026cooperative">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-      </div>
-    </article>
-
-    <article class="home-publication-item">
-      <a class="home-publication-visual" href="/publications/#yang2025da3d" aria-label="View the ACM MM 2025 publication">
-        <img src="/assets/img/publications/da3d-teaser.svg" alt="DA3D visual cover for all-weather LiDAR-radar 3D detection" width="1200" height="720" loading="lazy" decoding="async">
-      </a>
-      <div class="home-publication-content">
-        <div class="home-publication-meta"><span>ACM MM 2025</span><span>Multimodal</span></div>
-        <h3><a href="/publications/#yang2025da3d">DA3D: Domain-Aware Dynamic Adaptation for All-Weather Multimodal 3D Detection</a></h3>
-        <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
-        <a class="home-publication-link" href="/publications/#yang2025da3d">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-      </div>
-    </article>
-
-    <article class="home-publication-item">
-      <a class="home-publication-visual" href="/publications/#wang2026darkdriving" aria-label="View the ICRA 2026 publication">
-        <img src="/assets/img/publications/darkdriving-teaser.webp" alt="Day and night aligned examples from the DarkDriving dataset" width="900" height="720" loading="lazy" decoding="async">
-      </a>
-      <div class="home-publication-content">
-        <div class="home-publication-meta"><span>ICRA 2026</span><span>Low-Light Driving</span></div>
-        <h3><a href="/publications/#wang2026darkdriving">DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving</a></h3>
-        <p class="home-publication-authors">Wuqi Wang, <strong>Haochen Yang</strong>, et al.</p>
-        <a class="home-publication-link" href="/publications/#wang2026darkdriving">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-      </div>
-    </article>
-
-    <article class="home-publication-item">
-      <a class="home-publication-visual" href="/publications/#yang2024digitaltwin" aria-label="View the ESWA 2024 publication">
-        <img src="/assets/img/publications/digital-twin-teaser.webp" alt="Illustration of an implantable cardiac device and the human heart" width="900" height="506" loading="lazy" decoding="async">
-      </a>
-      <div class="home-publication-content">
-        <div class="home-publication-meta"><span>ESWA 2024</span><span>Digital Twin</span></div>
-        <h3><a href="/publications/#yang2024digitaltwin">Decision Support for Personalized Therapy in Implantable Medical Devices: A Digital Twin Approach</a></h3>
-        <p class="home-publication-authors"><strong>Haochen Yang</strong> and Zhihao Jiang</p>
-        <a class="home-publication-link" href="/publications/#yang2024digitaltwin">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-      </div>
-    </article>
-
-  </div>
 </section>
 
 <div class="home-details-grid">
@@ -138,3 +77,61 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
     </ul>
   </section>
 </div>
+
+<section class="home-projects-section" aria-labelledby="selected-publications-heading">
+  <header class="home-projects-header">
+    <div>
+      <span class="home-projects-eyebrow">Featured Research</span>
+      <h2 id="selected-publications-heading">Selected Publications</h2>
+    </div>
+    <a class="home-projects-all" href="/publications/">All Publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+  </header>
+
+  <div class="home-publication-list">
+    <article class="home-publication-item">
+      <a class="home-publication-visual" href="/publications/#yang2026cooperative" aria-label="View the CVPR 2026 publication">
+        <img src="/assets/img/publications/ums-pipeline.webp" alt="UMS training pipeline for multi-agent and single-agent 3D perception" width="1703" height="792" loading="lazy" decoding="async">
+      </a>
+      <div class="home-publication-content">
+        <div class="home-publication-meta"><span>CVPR 2026</span><span>3D Perception</span></div>
+        <h3><a href="/publications/#yang2026cooperative">Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views</a></h3>
+        <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
+        <div class="home-publication-actions">
+          <a class="home-publication-link" href="/publications/#yang2026cooperative">Details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="home-publication-pdf" href="/assets/pdf/Haochen_Yang_UMS_CVPR_2026.pdf" download><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="home-publication-item">
+      <a class="home-publication-visual" href="/publications/#yang2025da3d" aria-label="View the ACM MM 2025 publication">
+        <img src="/assets/img/publications/da3d-pipeline.webp" alt="DA3D domain-aware multimodal 3D detection pipeline" width="1744" height="1227" loading="lazy" decoding="async">
+      </a>
+      <div class="home-publication-content">
+        <div class="home-publication-meta"><span>ACM MM 2025</span><span>Multimodal</span></div>
+        <h3><a href="/publications/#yang2025da3d">DA3D: Domain-Aware Dynamic Adaptation for All-Weather Multimodal 3D Detection</a></h3>
+        <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
+        <div class="home-publication-actions">
+          <a class="home-publication-link" href="/publications/#yang2025da3d">Details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="home-publication-pdf" href="/assets/pdf/Haochen_Yang_DA3D_ACM_MM_2025.pdf" download><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="home-publication-item">
+      <a class="home-publication-visual" href="/publications/#wang2026darkdriving" aria-label="View the ICRA 2026 publication">
+        <img src="/assets/img/publications/darkdriving-pipeline.webp" alt="DarkDriving automatic day-and-night trajectory tracking and pose matching pipeline" width="1489" height="865" loading="lazy" decoding="async">
+      </a>
+      <div class="home-publication-content">
+        <div class="home-publication-meta"><span>ICRA 2026</span><span>Low-Light Driving</span></div>
+        <h3><a href="/publications/#wang2026darkdriving">DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving</a></h3>
+        <p class="home-publication-authors">Wuqi Wang, <strong>Haochen Yang</strong>, et al.</p>
+        <div class="home-publication-actions">
+          <a class="home-publication-link" href="/publications/#wang2026darkdriving">Details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="home-publication-pdf" href="/assets/pdf/DarkDriving_ICRA_2026.pdf" download><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>

@@ -581,7 +581,6 @@ body:has(.profile) .post article > p:first-of-type {
   gap: 0.48rem;
   align-items: center;
   align-self: flex-start;
-  margin-top: auto;
   color: var(--site-heading-color);
   font-size: 0.71rem;
   font-weight: 700;
@@ -597,6 +596,42 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-publication-link:hover i {
   transform: translateX(0.2rem);
+}
+
+.home-publication-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+  margin-top: auto;
+}
+
+.home-publication-pdf {
+  display: inline-flex;
+  gap: 0.42rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.48rem 0.72rem;
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 58%, var(--global-divider-color));
+  border-radius: 999px;
+  color: var(--site-heading-color);
+  background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
+  font-size: 0.71rem;
+  font-weight: 750;
+  letter-spacing: 0.055em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    color 150ms ease,
+    background 150ms ease,
+    border-color 150ms ease;
+}
+
+.home-publication-pdf:hover {
+  border-color: var(--global-theme-color);
+  color: var(--site-accent-ink);
+  background: var(--global-theme-color);
 }
 
 .home-details-grid {
