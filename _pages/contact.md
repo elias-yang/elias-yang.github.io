@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=12">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=15">
 
 I am always open to research discussions and potential collaborations. Feel free to reach out by email.
 

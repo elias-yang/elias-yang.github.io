@@ -2,10 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttons = Array.from(document.querySelectorAll("[data-theme-filter]"));
   const sections = Array.from(document.querySelectorAll("[data-research-theme]"));
   const unclassified = document.querySelector("[data-unclassified-publications]");
+  const themes = document.querySelector(".research-themes");
 
   if (buttons.length === 0 || sections.length === 0) return;
 
   const selectTheme = (theme) => {
+    themes?.classList.toggle("is-all", theme === "all");
+
     buttons.forEach((button) => {
       const isActive = button.dataset.themeFilter === theme;
       button.classList.toggle("is-active", isActive);

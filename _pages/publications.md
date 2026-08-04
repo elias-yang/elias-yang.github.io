@@ -7,8 +7,8 @@ nav: true
 nav_order: 3
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=12">
-<script src="/assets/js/publication-filters.js?v=2" defer></script>
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=15">
+<script src="/assets/js/publication-filters.js?v=3" defer></script>
 
 <div class="publication-filter" role="group" aria-label="Filter publications by research theme">
   <span class="publication-filter__label">Filter</span>
@@ -18,7 +18,7 @@ nav_order: 3
   <button class="publication-filter__button" type="button" data-theme-filter="digital-twin" aria-pressed="false"><span></span>Digital Twin</button>
 </div>
 
-<div class="research-themes">
+<div class="research-themes is-all">
   <section class="research-theme" data-research-theme="autonomous">
     <h2>Robust 3D Perception for Autonomous Driving</h2>
     <p>Unsupervised cooperative perception and domain-aware multimodal detection for reliable autonomous systems.</p>

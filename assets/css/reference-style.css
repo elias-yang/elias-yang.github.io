@@ -290,6 +290,25 @@ body:has(.profile) .post article h2 {
   display: none;
 }
 
+.research-themes.is-all .research-theme > h2,
+.research-themes.is-all .research-theme > p {
+  display: none;
+}
+
+.research-themes.is-all .publications,
+.research-themes.is-all .publications ol.bibliography {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.research-themes.is-all .publications ol.bibliography li:last-child {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.research-themes.is-all .unclassified-publications .publications:last-child ol.bibliography li:last-child {
+  border-bottom: 0;
+}
+
 .research-theme > h2 {
   margin-top: 3.15rem !important;
   padding-bottom: 0.65rem;
