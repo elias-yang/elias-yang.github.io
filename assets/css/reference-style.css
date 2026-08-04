@@ -191,23 +191,27 @@ body:has(.profile) .post article h2 {
   transform: translateY(-2px);
 }
 
-.education-list {
+.education-list,
+.experience-list {
   margin-top: 1.15rem;
   padding-left: 1.8rem;
 }
 
-.education-list > li {
+.education-list > li,
+.experience-list > li {
   margin-bottom: 1.4rem !important;
   padding-left: 0.12rem;
   font-size: 1.12rem !important;
   line-height: 1.58 !important;
 }
 
-.education-list > li > div:first-child {
+.education-list > li > div:first-child,
+.experience-list > li > div:first-child {
   font-size: 1.17rem;
 }
 
-.education-list strong {
+.education-list strong,
+.experience-list strong {
   color: var(--site-heading-color);
   font-weight: 700;
 }

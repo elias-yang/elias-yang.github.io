@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=16">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=17">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
@@ -53,5 +53,18 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
   <li>
     <div><strong>University of Jinan</strong>, 2016–2020</div>
     <div>B.S. in Computer Science and Technology</div>
+  </li>
+</ul>
+
+## Experience
+
+<ul class="experience-list">
+  <li>
+    <div><strong>University of Minnesota, Twin Cities</strong>, Summer 2026</div>
+    <div>Research Intern</div>
+  </li>
+  <li>
+    <div><strong>Primarius Technologies Co., Ltd.</strong>, Jul. 2023–Jul. 2024</div>
+    <div>Senior Engineer</div>
   </li>
 </ul>
