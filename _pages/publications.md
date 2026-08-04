@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=15">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=23">
 <script src="/assets/js/publication-filters.js?v=3" defer></script>
 
 <div class="publication-filter" role="group" aria-label="Filter publications by research theme">
