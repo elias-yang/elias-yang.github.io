@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=19">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=20">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
@@ -31,9 +31,14 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
   <a href="https://github.com/elias-yang" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
 </div>
 
-## News
-
-<div class="home-news-list"></div>
+<section class="home-news-section" aria-labelledby="home-news-heading">
+  <header class="home-news-header">
+    <span class="home-news-icon" aria-hidden="true"><i class="fa-regular fa-bell"></i></span>
+    <h2 id="home-news-heading">News</h2>
+    <span class="home-news-rule" aria-hidden="true"></span>
+  </header>
+  <div class="home-news-list"></div>
+</section>
 
 <div class="home-details-grid">
   <section class="home-detail-card" aria-labelledby="education-heading">
