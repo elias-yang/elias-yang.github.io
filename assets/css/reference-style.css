@@ -616,6 +616,11 @@ footer.fixed-bottom a {
   .home-details-grid {
     grid-template-columns: 1fr;
   }
+
+  footer.fixed-bottom {
+    position: static !important;
+    margin-top: 2.5rem;
+  }
 }
 
 @media (max-width: 575.98px) {
