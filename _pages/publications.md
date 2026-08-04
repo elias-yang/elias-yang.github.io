@@ -58,5 +58,8 @@ nav_order: 3
     <div class="publications">
       {% bibliography --query @*[project=cpsenvironment] %}
     </div>
+    <div class="publications">
+      {% bibliography --query @*[project=health] %}
+    </div>
   </div>
 </div>
