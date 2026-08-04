@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=24">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=25">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
@@ -38,6 +38,47 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
     <span class="home-news-rule" aria-hidden="true"></span>
   </header>
   <div class="home-news-list"></div>
+</section>
+
+<section class="home-projects-section" aria-labelledby="selected-projects-heading">
+  <header class="home-projects-header">
+    <div>
+      <span class="home-projects-eyebrow">Featured Research</span>
+      <h2 id="selected-projects-heading">Selected Projects</h2>
+    </div>
+    <a class="home-projects-all" href="/publications/">All Publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+  </header>
+
+  <div class="home-project-grid">
+    <a class="home-project-card" href="/publications/#yang2026cooperative">
+      <div class="home-project-meta"><span>CVPR 2026</span><span>3D Perception</span></div>
+      <h3>Unsupervised Multi-Agent and Single-Agent Perception</h3>
+      <p>Learning robust single-agent perception from cooperative multi-agent observations.</p>
+      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+    </a>
+
+    <a class="home-project-card" href="/publications/#yang2025da3d">
+      <div class="home-project-meta"><span>ACM MM 2025</span><span>Multimodal</span></div>
+      <h3>Domain-Aware All-Weather 3D Detection</h3>
+      <p>Dynamic adaptation for multimodal LiDAR-radar perception across adverse weather.</p>
+      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+    </a>
+
+    <a class="home-project-card" href="/publications/#wang2026darkdriving">
+      <div class="home-project-meta"><span>ICRA 2026</span><span>Low-Light Driving</span></div>
+      <h3>DarkDriving: Real-World Day–Night Aligned Data</h3>
+      <p>A real-world aligned dataset for autonomous driving perception in dark environments.</p>
+      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+    </a>
+
+    <a class="home-project-card" href="/publications/#yang2024digitaltwin">
+      <div class="home-project-meta"><span>ESWA 2024</span><span>Digital Twin</span></div>
+      <h3>Personalized Therapy for Implantable Medical Devices</h3>
+      <p>A digital-twin approach to decision support and individualized therapy planning.</p>
+      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+    </a>
+
+  </div>
 </section>
 
 <div class="home-details-grid">
