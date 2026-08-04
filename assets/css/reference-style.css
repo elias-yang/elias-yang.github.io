@@ -462,60 +462,40 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-publication-list {
   display: grid;
-  gap: 1.1rem;
+  gap: 2.4rem;
 }
 
 .home-publication-item {
   display: grid;
-  grid-template-columns: minmax(17rem, 36%) minmax(0, 1fr);
-  min-height: 14.5rem;
-  overflow: hidden;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1.15rem;
-  background: var(--site-panel-bg);
-  box-shadow: 0 16px 42px rgba(43, 39, 34, 0.055);
-  transition:
-    border-color 170ms ease,
-    box-shadow 170ms ease,
-    transform 170ms ease;
-}
-
-.home-publication-item:hover {
-  border-color: color-mix(in srgb, var(--global-theme-color) 48%, var(--global-divider-color));
-  box-shadow: var(--site-panel-shadow);
-  transform: translateY(-2px);
+  grid-template-columns: minmax(15rem, 34%) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
 }
 
 .home-publication-visual {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 14.5rem;
-  padding: 0.75rem;
+  min-height: 0;
+  padding: 0;
   overflow: hidden;
-  border-right: 1px solid var(--global-divider-color);
-  background: #fff;
+  background: transparent;
 }
 
 .home-publication-visual img {
   display: block;
   width: 100%;
-  height: 100%;
-  max-height: 13rem;
-  border-radius: 0.6rem;
+  height: auto;
+  max-height: 12.5rem;
+  border-radius: 0.2rem;
   object-fit: contain;
-  transition: transform 220ms ease;
-}
-
-.home-publication-item:hover .home-publication-visual img {
-  transform: scale(1.018);
 }
 
 .home-publication-content {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  padding: 1.4rem 1.55rem 1.35rem;
+  padding: 0;
 }
 
 .home-publication-meta {
@@ -547,12 +527,12 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-publication-content h3 {
-  margin: 0 0 0.55rem !important;
+  margin: 0 0 0.4rem !important;
   font-family: Newsreader, Georgia, serif !important;
-  font-size: 1.46rem !important;
-  font-weight: 620 !important;
-  letter-spacing: -0.018em;
-  line-height: 1.18;
+  font-size: 1.38rem !important;
+  font-weight: 650 !important;
+  letter-spacing: -0.012em;
+  line-height: 1.22;
 }
 
 .home-publication-content h3 a {
@@ -565,15 +545,25 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-publication-authors {
-  margin: 0 0 1rem !important;
-  color: var(--global-text-color-light) !important;
-  font-size: 0.88rem !important;
-  line-height: 1.5 !important;
+  margin: 0 0 0.18rem !important;
+  color: var(--global-text-color) !important;
+  font-family: Newsreader, Georgia, serif;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
 }
 
 .home-publication-authors strong {
   color: var(--site-heading-color);
   font-weight: 700;
+}
+
+.home-publication-venue {
+  margin: 0 !important;
+  color: var(--global-text-color-light) !important;
+  font-family: Newsreader, Georgia, serif;
+  font-size: 1rem !important;
+  font-style: italic;
+  line-height: 1.4 !important;
 }
 
 .home-publication-link {
@@ -601,9 +591,9 @@ body:has(.profile) .post article > p:first-of-type {
 .home-publication-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
+  gap: 0.55rem;
   align-items: center;
-  margin-top: auto;
+  margin-top: 0.7rem;
 }
 
 .home-publication-pdf {
@@ -611,14 +601,14 @@ body:has(.profile) .post article > p:first-of-type {
   gap: 0.42rem;
   align-items: center;
   justify-content: center;
-  padding: 0.48rem 0.72rem;
-  border: 1px solid color-mix(in srgb, var(--global-theme-color) 58%, var(--global-divider-color));
-  border-radius: 999px;
+  padding: 0.35rem 0.62rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.28rem;
   color: var(--site-heading-color);
-  background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
-  font-size: 0.71rem;
-  font-weight: 750;
-  letter-spacing: 0.055em;
+  background: transparent;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   line-height: 1;
   text-decoration: none;
   text-transform: uppercase;
@@ -629,9 +619,9 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-publication-pdf:hover {
-  border-color: var(--global-theme-color);
-  color: var(--site-accent-ink);
-  background: var(--global-theme-color);
+  border-color: var(--site-heading-color);
+  color: var(--site-heading-color);
+  background: color-mix(in srgb, var(--global-text-color) 5%, transparent);
 }
 
 .home-details-grid {
@@ -1136,15 +1126,15 @@ footer.fixed-bottom a {
 
   .home-publication-item {
     grid-template-columns: 1fr;
+    gap: 0.9rem;
     min-height: 0;
   }
 
   .home-publication-visual {
     min-height: 0;
-    aspect-ratio: 16 / 9;
-    padding: 0.65rem;
-    border-right: 0;
-    border-bottom: 1px solid var(--global-divider-color);
+    aspect-ratio: auto;
+    padding: 0;
+    border: 0;
   }
 
   .home-publication-visual img {
@@ -1152,7 +1142,7 @@ footer.fixed-bottom a {
   }
 
   .home-publication-content {
-    padding: 1.05rem 1.15rem 1.1rem;
+    padding: 0;
   }
 
   .home-publication-content h3 {

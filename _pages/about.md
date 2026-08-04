@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=27">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=28">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
@@ -80,11 +80,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
 
 <section class="home-projects-section" aria-labelledby="selected-publications-heading">
   <header class="home-projects-header">
-    <div>
-      <span class="home-projects-eyebrow">Featured Research</span>
-      <h2 id="selected-publications-heading">Selected Publications</h2>
-    </div>
-    <a class="home-projects-all" href="/publications/">All Publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+    <h2 id="selected-publications-heading">Selected Publications</h2>
   </header>
 
   <div class="home-publication-list">
@@ -93,11 +89,10 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <img src="/assets/img/publications/ums-pipeline.webp" alt="UMS training pipeline for multi-agent and single-agent 3D perception" width="1703" height="792" loading="lazy" decoding="async">
       </a>
       <div class="home-publication-content">
-        <div class="home-publication-meta"><span>CVPR 2026</span><span>3D Perception</span></div>
         <h3><a href="/publications/#yang2026cooperative">Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views</a></h3>
         <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
+        <p class="home-publication-venue">CVPR, 2026</p>
         <div class="home-publication-actions">
-          <a class="home-publication-link" href="/publications/#yang2026cooperative">Details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
           <a class="home-publication-pdf" href="https://arxiv.org/pdf/2604.05354" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
         </div>
       </div>
@@ -108,11 +103,10 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <img src="/assets/img/publications/da3d-pipeline.webp" alt="DA3D domain-aware multimodal 3D detection pipeline" width="1744" height="1227" loading="lazy" decoding="async">
       </a>
       <div class="home-publication-content">
-        <div class="home-publication-meta"><span>ACM MM 2025</span><span>Multimodal</span></div>
         <h3><a href="/publications/#yang2025da3d">DA3D: Domain-Aware Dynamic Adaptation for All-Weather Multimodal 3D Detection</a></h3>
         <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
+        <p class="home-publication-venue">ACM MM, 2025</p>
         <div class="home-publication-actions">
-          <a class="home-publication-link" href="/publications/#yang2025da3d">Details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
           <a class="home-publication-pdf" href="https://dl.acm.org/doi/epdf/10.1145/3746027.3755708" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
         </div>
       </div>
@@ -123,11 +117,10 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <img src="/assets/img/publications/darkdriving-pipeline.webp" alt="DarkDriving automatic day-and-night trajectory tracking and pose matching pipeline" width="1489" height="865" loading="lazy" decoding="async">
       </a>
       <div class="home-publication-content">
-        <div class="home-publication-meta"><span>ICRA 2026</span><span>Low-Light Driving</span></div>
         <h3><a href="/publications/#wang2026darkdriving">DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving</a></h3>
         <p class="home-publication-authors">Wuqi Wang, <strong>Haochen Yang</strong>, et al.</p>
+        <p class="home-publication-venue">ICRA, 2026</p>
         <div class="home-publication-actions">
-          <a class="home-publication-link" href="/publications/#wang2026darkdriving">Details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
           <a class="home-publication-pdf" href="https://arxiv.org/pdf/2603.18067" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
         </div>
       </div>
