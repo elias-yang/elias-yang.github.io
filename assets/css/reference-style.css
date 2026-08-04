@@ -120,8 +120,8 @@ table.table a:hover {
 
 .post-header .post-title {
   position: relative;
-  margin-bottom: 1.25rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1.55rem;
+  padding-bottom: 0;
   color: var(--site-heading-color);
   font-family: Newsreader, Georgia, serif;
   font-size: clamp(2.65rem, 5vw, 4rem);
@@ -131,14 +131,8 @@ table.table a:hover {
 }
 
 .post-header .post-title::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 3.4rem;
-  height: 0.24rem;
-  border-radius: 999px;
-  background: var(--global-theme-color);
-  content: "";
+  display: none;
+  content: none;
 }
 
 .post-header .desc,
@@ -152,9 +146,9 @@ table.table a:hover {
   width: 100%;
   aspect-ratio: 5 / 6;
   overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--global-theme-color) 32%, var(--global-divider-color));
-  border-radius: 1.4rem;
-  box-shadow: var(--site-profile-shadow);
+  border: 0;
+  border-radius: 0.45rem;
+  box-shadow: none;
 }
 
 .profile figure,
@@ -203,7 +197,7 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-social-links {
   display: flex;
-  gap: 0.65rem;
+  gap: 1rem;
   align-items: center;
   margin: 1.35rem 0 0;
 }
@@ -212,13 +206,13 @@ body:has(.profile) .post article > p:first-of-type {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.65rem;
-  height: 2.65rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 50%;
+  width: auto;
+  height: auto;
+  border: 0;
+  border-radius: 0;
   color: var(--site-heading-color);
-  background: var(--global-card-bg-color);
-  font-size: 1.3rem;
+  background: transparent;
+  font-size: 1.25rem;
   text-decoration: none;
   transition:
     color 150ms ease,
@@ -230,11 +224,10 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-social-links a:hover,
 .home-social-links a:focus-visible {
-  border-color: var(--global-theme-color);
-  color: var(--site-accent-ink);
-  background: var(--global-theme-color);
-  box-shadow: var(--site-accent-shadow);
-  transform: translateY(-2px);
+  color: var(--global-theme-color);
+  background: transparent;
+  box-shadow: none;
+  transform: none;
 }
 
 .home-news-section {
@@ -255,8 +248,8 @@ body:has(.profile) .post article > p:first-of-type {
 .home-news-header > h2 {
   margin: 0 !important;
   font-family: Newsreader, Georgia, serif;
-  font-size: 1.8rem;
-  font-weight: 620;
+  font-size: 1.75rem;
+  font-weight: 600;
   letter-spacing: -0.018em;
 }
 
@@ -312,8 +305,8 @@ body:has(.profile) .post article > p:first-of-type {
   margin: 0 !important;
   color: var(--site-heading-color);
   font-family: Newsreader, Georgia, serif;
-  font-size: 2rem !important;
-  font-weight: 620 !important;
+  font-size: 1.75rem !important;
+  font-weight: 600 !important;
   letter-spacing: -0.025em !important;
   line-height: 1.05;
 }
@@ -647,8 +640,8 @@ body:has(.profile) .post article > p:first-of-type {
   padding: 0;
   border: 0;
   font-family: Newsreader, Georgia, serif;
-  font-size: 1.62rem;
-  font-weight: 620;
+  font-size: 1.75rem;
+  font-weight: 600;
   letter-spacing: -0.015em;
 }
 
@@ -705,7 +698,7 @@ body:has(.profile) .post article > p:first-of-type {
   border-radius: 0;
   color: var(--global-text-color-light);
   background: transparent;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 500;
   line-height: 1.4;
   white-space: nowrap;
