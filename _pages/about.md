@@ -7,7 +7,7 @@ nav: false
 
 profile:
   align: right
-  image: haochen-yang-profile.png
+  image: haochen-yang-profile.webp
   image_circular: false
 
 selected_papers: false
@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=15">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=16">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
