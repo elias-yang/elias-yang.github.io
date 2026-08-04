@@ -1,14 +1,14 @@
 /* Independent orange-and-white academic system with editorial typography. */
 :root {
   color-scheme: light;
-  --global-bg-color: #fbfaf7 !important;
+  --global-bg-color: #fff !important;
   --global-code-bg-color: #f3efe9 !important;
   --global-text-color: #34363b !important;
   --global-text-color-light: #70747c !important;
   --global-theme-color: #eb7617 !important;
   --global-hover-color: #c95d0a !important;
   --global-hover-text-color: #fff !important;
-  --global-footer-bg-color: #f4f0e9 !important;
+  --global-footer-bg-color: #fff !important;
   --global-footer-text-color: #73767d !important;
   --global-footer-link-color: #c95d0a !important;
   --global-divider-color: #e3ded5 !important;
@@ -61,8 +61,7 @@ body {
 }
 
 body {
-  background-image: radial-gradient(circle at 85% 5rem, var(--site-page-glow), transparent 24rem);
-  background-attachment: fixed;
+  background-image: none;
 }
 
 .container {
@@ -81,9 +80,9 @@ table.table a:hover {
 }
 
 .navbar {
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 0;
   background: var(--site-navbar-bg);
-  box-shadow: 0 8px 30px rgba(43, 39, 34, 0.045);
+  box-shadow: none;
   backdrop-filter: blur(16px);
 }
 
@@ -241,11 +240,10 @@ body:has(.profile) .post article > p:first-of-type {
 .home-news-section {
   clear: both;
   margin-top: 3rem;
-  padding: 1.1rem 1.25rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1rem;
-  background: linear-gradient(115deg, var(--site-panel-bg), color-mix(in srgb, var(--site-orange-soft) 52%, var(--site-panel-bg)));
-  box-shadow: 0 12px 34px rgba(43, 39, 34, 0.055);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .home-news-header {
@@ -257,7 +255,7 @@ body:has(.profile) .post article > p:first-of-type {
 .home-news-header > h2 {
   margin: 0 !important;
   font-family: Newsreader, Georgia, serif;
-  font-size: 1.65rem;
+  font-size: 1.8rem;
   font-weight: 620;
   letter-spacing: -0.018em;
 }
@@ -601,10 +599,10 @@ body:has(.profile) .post article > p:first-of-type {
   gap: 0.42rem;
   align-items: center;
   justify-content: center;
-  padding: 0.35rem 0.62rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.28rem;
-  color: var(--site-heading-color);
+  padding: 0.1rem 0;
+  border: 0;
+  border-radius: 0;
+  color: var(--global-theme-color);
   background: transparent;
   font-size: 0.74rem;
   font-weight: 700;
@@ -619,15 +617,15 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-publication-pdf:hover {
-  border-color: var(--site-heading-color);
-  color: var(--site-heading-color);
-  background: color-mix(in srgb, var(--global-text-color) 5%, transparent);
+  color: var(--global-hover-color);
+  background: transparent;
+  text-decoration: underline;
 }
 
 .home-details-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.35rem;
+  gap: 3rem;
   clear: both;
   align-items: start;
   margin-top: 1.35rem;
@@ -635,21 +633,19 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-detail-card {
   position: relative;
-  overflow: hidden;
-  padding: 1.35rem 1.45rem 1.2rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1.15rem;
-  background: var(--site-panel-bg);
-  box-shadow: var(--site-panel-shadow);
+  overflow: visible;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .home-detail-card > h2 {
-  display: flex;
-  gap: 0.55rem;
-  align-items: center;
-  margin: 0 0 1rem !important;
-  padding-bottom: 0.8rem;
-  border-bottom: 1px solid var(--global-divider-color);
+  display: block;
+  margin: 0 0 1.15rem !important;
+  padding: 0;
+  border: 0;
   font-family: Newsreader, Georgia, serif;
   font-size: 1.62rem;
   font-weight: 620;
@@ -657,12 +653,8 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-detail-card > h2::before {
-  display: block;
-  width: 0.23rem;
-  height: 1.2rem;
-  border-radius: 999px;
-  background: var(--global-theme-color);
-  content: "";
+  display: none;
+  content: none;
 }
 
 .home-detail-list {
@@ -673,8 +665,8 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-detail-list > li {
   display: grid;
-  grid-template-columns: 0.38rem minmax(0, 1fr) auto;
-  gap: 0.16rem 0.65rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.16rem 0.9rem;
   align-items: start;
   margin: 0 !important;
   padding: 0.05rem 0 0.9rem;
@@ -687,17 +679,8 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-detail-list > li::before {
-  grid-row: 1;
-  grid-column: 1;
-  align-self: start;
-  width: 0.38rem;
-  height: 0.38rem;
-  margin-top: 0.5rem;
-  border-radius: 50%;
-  border: 2px solid var(--global-theme-color);
-  background: var(--global-card-bg-color);
-  box-shadow: 0 0 0 4px var(--site-orange-soft);
-  content: "";
+  display: none;
+  content: none;
 }
 
 .home-detail-heading {
@@ -706,7 +689,7 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-detail-heading strong {
   grid-row: 1;
-  grid-column: 2;
+  grid-column: 1;
   color: var(--site-heading-color);
   font-size: 1.02rem;
   font-weight: 700;
@@ -714,23 +697,23 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-detail-heading time {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 2;
   align-self: start;
-  margin-top: 0.08rem;
-  padding: 0.08rem 0.38rem;
-  border: 1px solid color-mix(in srgb, var(--global-theme-color) 48%, var(--global-divider-color));
-  border-radius: 999px;
-  color: var(--site-heading-color);
-  background: var(--site-orange-soft);
-  font-size: 0.72rem;
-  font-weight: 600;
-  line-height: 1.45;
+  margin-top: 0.12rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: var(--global-text-color-light);
+  background: transparent;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.4;
   white-space: nowrap;
 }
 
 .home-detail-role {
   grid-row: 2;
-  grid-column: 2 / -1;
+  grid-column: 1 / -1;
   margin-top: 0;
   color: var(--global-text-color-light);
   font-size: 0.91rem;
@@ -1053,7 +1036,7 @@ body:has(.profile) .post article > p:first-of-type {
 footer.fixed-bottom {
   position: static !important;
   margin-top: 3.5rem;
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
   background: var(--global-footer-bg-color);
   color: var(--global-footer-text-color);
 }
@@ -1095,7 +1078,7 @@ footer.fixed-bottom a {
   }
 
   .home-detail-card {
-    padding: 1.05rem 1rem 0.95rem;
+    padding: 0;
   }
 
   .home-projects-section {
