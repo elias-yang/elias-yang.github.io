@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=32">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=33">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 

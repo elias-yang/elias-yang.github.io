@@ -664,8 +664,8 @@ body:has(.profile) .post article > p:first-of-type {
 
 .home-details-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 3rem;
+  grid-template-columns: 1fr;
+  gap: 2.8rem;
   clear: both;
   align-items: start;
   margin-top: 1.35rem;
@@ -674,9 +674,9 @@ body:has(.profile) .post article > p:first-of-type {
 .home-detail-card {
   position: relative;
   overflow: visible;
-  padding: 1.2rem 1.25rem 1.1rem;
-  border: 1px solid color-mix(in srgb, var(--global-divider-color) 68%, transparent);
-  border-radius: 0.75rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
   background: transparent;
   box-shadow: none;
 }
@@ -711,13 +711,15 @@ body:has(.profile) .post article > p:first-of-type {
   gap: 0.16rem 0.9rem;
   align-items: start;
   margin: 0 !important;
-  padding: 0.05rem 0 0.9rem;
+  padding: 0.65rem 0 0.9rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--global-divider-color) 54%, transparent);
   font-size: 1rem !important;
   line-height: 1.4 !important;
 }
 
 .home-detail-list > li:last-child {
   padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .home-detail-list > li::before {
@@ -1120,7 +1122,7 @@ footer.fixed-bottom a {
   }
 
   .home-detail-card {
-    padding: 1rem 1rem 0.95rem;
+    padding: 0;
   }
 
   .home-projects-section {
