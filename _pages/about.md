@@ -7,7 +7,7 @@ nav: false
 
 profile:
   align: right
-  image: haochen-yang-profile.webp
+  image: haochen-yang-profile-eyes.webp
   image_circular: false
 
 selected_papers: false
