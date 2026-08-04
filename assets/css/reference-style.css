@@ -147,8 +147,8 @@ table.table a:hover {
   aspect-ratio: 5 / 6;
   overflow: hidden;
   border: 0;
-  border-radius: 0.45rem;
-  box-shadow: none;
+  border-radius: 0.65rem;
+  box-shadow: 0 18px 48px rgba(30, 33, 38, 0.08);
 }
 
 .profile figure,
@@ -246,11 +246,39 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-news-header > h2 {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 0.7rem;
+  align-items: center;
   margin: 0 !important;
   font-family: Newsreader, Georgia, serif;
   font-size: 1.75rem;
   font-weight: 600;
   letter-spacing: -0.018em;
+}
+
+.home-news-header > h2::before,
+.home-detail-card > h2::before,
+.home-projects-header h2::before {
+  display: block;
+  flex: 0 0 auto;
+  width: 0.34rem;
+  height: 0.34rem;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  box-shadow: 0 0 0 0.22rem color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  content: "";
+}
+
+.home-news-header > h2::after,
+.home-detail-card > h2::after,
+.home-projects-header h2::after {
+  display: block;
+  flex: 1 1 auto;
+  height: 1px;
+  margin-left: 0.15rem;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--global-divider-color) 65%, transparent), transparent);
+  content: "";
 }
 
 .home-news-icon {
@@ -302,6 +330,10 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-projects-header h2 {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  width: 100%;
   margin: 0 !important;
   color: var(--site-heading-color);
   font-family: Newsreader, Georgia, serif;
@@ -457,10 +489,18 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-publication-item {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(15rem, 34%) minmax(0, 1fr);
   gap: 2rem;
   align-items: center;
+  padding: 0.35rem 0;
+  border-radius: 0.45rem;
+  transition: background-color 160ms ease;
+}
+
+.home-publication-item:hover {
+  background: color-mix(in srgb, var(--global-theme-color) 2.5%, transparent);
 }
 
 .home-publication-visual {
@@ -635,7 +675,9 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-detail-card > h2 {
-  display: block;
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
   margin: 0 0 1.15rem !important;
   padding: 0;
   border: 0;
@@ -646,8 +688,8 @@ body:has(.profile) .post article > p:first-of-type {
 }
 
 .home-detail-card > h2::before {
-  display: none;
-  content: none;
+  display: block;
+  content: "";
 }
 
 .home-detail-list {
