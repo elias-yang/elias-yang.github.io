@@ -67,7 +67,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
     <h2 id="experience-heading">Experience</h2>
     <ul class="home-detail-list">
       <li>
-        <div class="home-detail-heading"><strong>University of Minnesota, Twin Cities</strong><time>Summer 2026</time></div>
+        <div class="home-detail-heading"><strong>University of Minnesota, Twin Cities</strong><time>Mar.–Aug. 2026</time></div>
         <div class="home-detail-role">Research Intern</div>
       </li>
       <li>
