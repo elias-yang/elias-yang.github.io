@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=25">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=26">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
@@ -40,43 +40,63 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
   <div class="home-news-list"></div>
 </section>
 
-<section class="home-projects-section" aria-labelledby="selected-projects-heading">
+<section class="home-projects-section" aria-labelledby="selected-publications-heading">
   <header class="home-projects-header">
     <div>
       <span class="home-projects-eyebrow">Featured Research</span>
-      <h2 id="selected-projects-heading">Selected Projects</h2>
+      <h2 id="selected-publications-heading">Selected Publications</h2>
     </div>
     <a class="home-projects-all" href="/publications/">All Publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
   </header>
 
-  <div class="home-project-grid">
-    <a class="home-project-card" href="/publications/#yang2026cooperative">
-      <div class="home-project-meta"><span>CVPR 2026</span><span>3D Perception</span></div>
-      <h3>Unsupervised Multi-Agent and Single-Agent Perception</h3>
-      <p>Learning robust single-agent perception from cooperative multi-agent observations.</p>
-      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
-    </a>
+  <div class="home-publication-list">
+    <article class="home-publication-item">
+      <a class="home-publication-visual" href="/publications/#yang2026cooperative" aria-label="View the CVPR 2026 publication">
+        <img src="/assets/img/publications/ums-teaser.webp" alt="Illustration comparing single-view and cooperative-view 3D perception" width="900" height="726" loading="eager" decoding="async">
+      </a>
+      <div class="home-publication-content">
+        <div class="home-publication-meta"><span>CVPR 2026</span><span>3D Perception</span></div>
+        <h3><a href="/publications/#yang2026cooperative">Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views</a></h3>
+        <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
+        <a class="home-publication-link" href="/publications/#yang2026cooperative">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </article>
 
-    <a class="home-project-card" href="/publications/#yang2025da3d">
-      <div class="home-project-meta"><span>ACM MM 2025</span><span>Multimodal</span></div>
-      <h3>Domain-Aware All-Weather 3D Detection</h3>
-      <p>Dynamic adaptation for multimodal LiDAR-radar perception across adverse weather.</p>
-      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
-    </a>
+    <article class="home-publication-item">
+      <a class="home-publication-visual" href="/publications/#yang2025da3d" aria-label="View the ACM MM 2025 publication">
+        <img src="/assets/img/publications/da3d-teaser.svg" alt="DA3D visual cover for all-weather LiDAR-radar 3D detection" width="1200" height="720" loading="lazy" decoding="async">
+      </a>
+      <div class="home-publication-content">
+        <div class="home-publication-meta"><span>ACM MM 2025</span><span>Multimodal</span></div>
+        <h3><a href="/publications/#yang2025da3d">DA3D: Domain-Aware Dynamic Adaptation for All-Weather Multimodal 3D Detection</a></h3>
+        <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
+        <a class="home-publication-link" href="/publications/#yang2025da3d">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </article>
 
-    <a class="home-project-card" href="/publications/#wang2026darkdriving">
-      <div class="home-project-meta"><span>ICRA 2026</span><span>Low-Light Driving</span></div>
-      <h3>DarkDriving: Real-World Day–Night Aligned Data</h3>
-      <p>A real-world aligned dataset for autonomous driving perception in dark environments.</p>
-      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
-    </a>
+    <article class="home-publication-item">
+      <a class="home-publication-visual" href="/publications/#wang2026darkdriving" aria-label="View the ICRA 2026 publication">
+        <img src="/assets/img/publications/darkdriving-teaser.webp" alt="Day and night aligned examples from the DarkDriving dataset" width="900" height="720" loading="lazy" decoding="async">
+      </a>
+      <div class="home-publication-content">
+        <div class="home-publication-meta"><span>ICRA 2026</span><span>Low-Light Driving</span></div>
+        <h3><a href="/publications/#wang2026darkdriving">DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving</a></h3>
+        <p class="home-publication-authors">Wuqi Wang, <strong>Haochen Yang</strong>, et al.</p>
+        <a class="home-publication-link" href="/publications/#wang2026darkdriving">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </article>
 
-    <a class="home-project-card" href="/publications/#yang2024digitaltwin">
-      <div class="home-project-meta"><span>ESWA 2024</span><span>Digital Twin</span></div>
-      <h3>Personalized Therapy for Implantable Medical Devices</h3>
-      <p>A digital-twin approach to decision support and individualized therapy planning.</p>
-      <span class="home-project-link">View Publication <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
-    </a>
+    <article class="home-publication-item">
+      <a class="home-publication-visual" href="/publications/#yang2024digitaltwin" aria-label="View the ESWA 2024 publication">
+        <img src="/assets/img/publications/digital-twin-teaser.webp" alt="Illustration of an implantable cardiac device and the human heart" width="900" height="506" loading="lazy" decoding="async">
+      </a>
+      <div class="home-publication-content">
+        <div class="home-publication-meta"><span>ESWA 2024</span><span>Digital Twin</span></div>
+        <h3><a href="/publications/#yang2024digitaltwin">Decision Support for Personalized Therapy in Implantable Medical Devices: A Digital Twin Approach</a></h3>
+        <p class="home-publication-authors"><strong>Haochen Yang</strong> and Zhihao Jiang</p>
+        <a class="home-publication-link" href="/publications/#yang2024digitaltwin">View Publication <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </article>
 
   </div>
 </section>
