@@ -239,7 +239,7 @@ body:has(.profile) .post article h2 {
 
 .home-details-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.18fr) minmax(0, 0.82fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.25rem;
   clear: both;
   align-items: start;
@@ -280,9 +280,12 @@ body:has(.profile) .post article h2 {
 }
 
 .home-detail-list > li {
-  position: relative;
+  display: grid;
+  grid-template-columns: 0.38rem minmax(0, 1fr) auto;
+  gap: 0.16rem 0.65rem;
+  align-items: start;
   margin: 0 !important;
-  padding: 0.05rem 0 0.82rem 1.05rem;
+  padding: 0.05rem 0 0.9rem;
   font-size: 1rem !important;
   line-height: 1.4 !important;
 }
@@ -292,11 +295,12 @@ body:has(.profile) .post article h2 {
 }
 
 .home-detail-list > li::before {
-  position: absolute;
-  top: 0.53rem;
-  left: 0;
+  grid-row: 1;
+  grid-column: 1;
+  align-self: start;
   width: 0.38rem;
   height: 0.38rem;
+  margin-top: 0.5rem;
   border-radius: 50%;
   background: var(--global-theme-color);
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--global-theme-color) 13%, transparent);
@@ -304,32 +308,36 @@ body:has(.profile) .post article h2 {
 }
 
 .home-detail-heading {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 0.6rem;
-  align-items: baseline;
+  display: contents;
 }
 
 .home-detail-heading strong {
+  grid-row: 1;
+  grid-column: 2;
   color: var(--site-heading-color);
   font-size: 1.02rem;
   font-weight: 700;
 }
 
 .home-detail-heading time {
-  margin-left: auto;
-  padding: 0.1rem 0.45rem;
+  grid-row: 1;
+  grid-column: 3;
+  align-self: start;
+  margin-top: 0.08rem;
+  padding: 0.08rem 0.38rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 999px;
   color: var(--global-text-color-light);
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 600;
   line-height: 1.45;
   white-space: nowrap;
 }
 
 .home-detail-role {
-  margin-top: 0.12rem;
+  grid-row: 2;
+  grid-column: 2 / -1;
+  margin-top: 0;
   color: var(--global-text-color-light);
   font-size: 0.91rem;
   line-height: 1.45;
