@@ -115,14 +115,25 @@ table.table a:hover {
 
 .profile {
   width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  box-shadow: var(--site-profile-shadow);
+}
+
+.profile figure {
+  margin: 0;
 }
 
 .profile img,
 .profile img.rounded-circle {
+  display: block;
   width: 100%;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.85rem !important;
-  box-shadow: var(--site-profile-shadow);
+  border: 0;
+  border-radius: 0 !important;
+  box-shadow: none;
+  transform: scale(1.13);
+  transform-origin: 50% 50%;
 }
 
 @media (min-width: 576px) {
