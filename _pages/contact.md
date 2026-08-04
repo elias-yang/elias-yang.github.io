@@ -9,7 +9,7 @@ nav_order: 5
 
 <link rel="stylesheet" href="/assets/css/reference-style.css?v=12">
 
-I welcome conversations about autonomous driving, multimodal perception, federated learning, vision-language-action models, and digital twins.
+I am always open to research discussions and potential collaborations. Feel free to reach out by email.
 
 - **Email:** [hyang60@vols.utk.edu](mailto:hyang60@vols.utk.edu)
 - **Current institution:** University of Tennessee, Knoxville
