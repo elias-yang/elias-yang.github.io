@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="/assets/css/reference-style.css?v=17">
+<link rel="stylesheet" href="/assets/css/reference-style.css?v=18">
 
 I am a Ph.D. student in Computer Science at the **University of Tennessee, Knoxville**, advised by [Prof. Hongkai Yu](https://hongkaiyu.github.io/). My research focuses on **vision-language-action models** and **autonomous driving**.
 
@@ -35,36 +35,40 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
 
 <div class="home-news-list"></div>
 
-## Education
+<div class="home-details-grid">
+  <section class="home-detail-card" aria-labelledby="education-heading">
+    <h2 id="education-heading">Education</h2>
+    <ul class="home-detail-list">
+      <li>
+        <div class="home-detail-heading"><strong>University of Tennessee, Knoxville</strong><time>2026–Present</time></div>
+        <div class="home-detail-role">Ph.D. student in Computer Science</div>
+      </li>
+      <li>
+        <div class="home-detail-heading"><strong>Cleveland State University</strong><time>2024–2026</time></div>
+        <div class="home-detail-role">Ph.D. study in Computer Science</div>
+      </li>
+      <li>
+        <div class="home-detail-heading"><strong>ShanghaiTech University</strong><time>2020–2023</time></div>
+        <div class="home-detail-role">M.S. in Computer Science and Technology</div>
+      </li>
+      <li>
+        <div class="home-detail-heading"><strong>University of Jinan</strong><time>2016–2020</time></div>
+        <div class="home-detail-role">B.S. in Computer Science and Technology</div>
+      </li>
+    </ul>
+  </section>
 
-<ul class="education-list">
-  <li>
-    <div><strong>University of Tennessee, Knoxville</strong>, 2026–Present</div>
-    <div>Ph.D. student in Computer Science</div>
-  </li>
-  <li>
-    <div><strong>Cleveland State University</strong>, 2024–2026</div>
-    <div>Ph.D. study in Computer Science</div>
-  </li>
-  <li>
-    <div><strong>ShanghaiTech University</strong>, 2020–2023</div>
-    <div>M.S. in Computer Science and Technology</div>
-  </li>
-  <li>
-    <div><strong>University of Jinan</strong>, 2016–2020</div>
-    <div>B.S. in Computer Science and Technology</div>
-  </li>
-</ul>
-
-## Experience
-
-<ul class="experience-list">
-  <li>
-    <div><strong>University of Minnesota, Twin Cities</strong>, Summer 2026</div>
-    <div>Research Intern</div>
-  </li>
-  <li>
-    <div><strong>Primarius Technologies Co., Ltd.</strong>, Jul. 2023–Jul. 2024</div>
-    <div>Senior Engineer</div>
-  </li>
-</ul>
+  <section class="home-detail-card" aria-labelledby="experience-heading">
+    <h2 id="experience-heading">Experience</h2>
+    <ul class="home-detail-list">
+      <li>
+        <div class="home-detail-heading"><strong>University of Minnesota, Twin Cities</strong><time>Summer 2026</time></div>
+        <div class="home-detail-role">Research Intern</div>
+      </li>
+      <li>
+        <div class="home-detail-heading"><strong>Primarius Technologies Co., Ltd.</strong><time>Jul. 2023–Jul. 2024</time></div>
+        <div class="home-detail-role">Senior Engineer</div>
+      </li>
+    </ul>
+  </section>
+</div>
