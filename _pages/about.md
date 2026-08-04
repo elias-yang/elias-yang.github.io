@@ -31,6 +31,10 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
   <a href="https://github.com/elias-yang" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
 </div>
 
+## News
+
+<div class="home-news-list"></div>
+
 ## Education
 
 <ul class="education-list">
