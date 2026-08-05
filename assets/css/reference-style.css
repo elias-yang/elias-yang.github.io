@@ -491,7 +491,7 @@ body:has(.profile) .post article > p:first-of-type {
 .home-publication-item {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(13rem, 27%) minmax(0, 1fr);
+  grid-template-columns: minmax(11.5rem, 23%) minmax(0, 1fr);
   gap: 2rem;
   align-items: center;
   padding: 0.35rem 0 1.8rem;
@@ -514,8 +514,8 @@ body:has(.profile) .post article > p:first-of-type {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 10.5rem;
-  min-height: 10.5rem;
+  height: 9rem;
+  min-height: 9rem;
   padding: 0.55rem;
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--global-divider-color) 58%, transparent);
@@ -1099,7 +1099,7 @@ footer.fixed-bottom a {
   }
 
   .home-publication-item {
-    grid-template-columns: minmax(12rem, 30%) minmax(0, 1fr);
+    grid-template-columns: minmax(11rem, 26%) minmax(0, 1fr);
   }
 
   .home-details-grid {
@@ -1163,9 +1163,9 @@ footer.fixed-bottom a {
 
   .home-publication-visual {
     width: 100%;
-    max-width: 20rem;
-    height: 10.5rem;
-    min-height: 10.5rem;
+    max-width: 18rem;
+    height: 9rem;
+    min-height: 9rem;
     justify-self: start;
     aspect-ratio: auto;
     padding: 0.5rem;
