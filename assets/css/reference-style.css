@@ -518,7 +518,7 @@ body:has(.profile) .post article > p:first-of-type {
   min-height: 9rem;
   padding: 0.55rem;
   overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--global-divider-color) 58%, transparent);
+  border: 0;
   border-radius: 0.4rem;
   background: #fff;
 }
@@ -1169,7 +1169,7 @@ footer.fixed-bottom a {
     justify-self: start;
     aspect-ratio: auto;
     padding: 0.5rem;
-    border: 1px solid color-mix(in srgb, var(--global-divider-color) 58%, transparent);
+    border: 0;
   }
 
   .home-publication-visual img {
