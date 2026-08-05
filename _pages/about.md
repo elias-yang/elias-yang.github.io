@@ -92,6 +92,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <p class="home-publication-venue">CVPR, 2026</p>
         <div class="home-publication-actions">
           <a class="home-publication-pdf" href="https://arxiv.org/pdf/2604.05354" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
+          <a class="home-publication-pdf" href="/"><i class="fa-solid fa-code" aria-hidden="true"></i> CODE</a>
         </div>
       </div>
     </article>
@@ -106,6 +107,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <p class="home-publication-venue">ACM MM, 2025</p>
         <div class="home-publication-actions">
           <a class="home-publication-pdf" href="https://dl.acm.org/doi/epdf/10.1145/3746027.3755708" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
+          <a class="home-publication-pdf" href="/"><i class="fa-solid fa-code" aria-hidden="true"></i> CODE</a>
         </div>
       </div>
     </article>
@@ -120,6 +122,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <p class="home-publication-venue">ICRA, 2026</p>
         <div class="home-publication-actions">
           <a class="home-publication-pdf" href="https://arxiv.org/pdf/2603.18067" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF</a>
+          <a class="home-publication-pdf" href="/"><i class="fa-solid fa-code" aria-hidden="true"></i> CODE</a>
         </div>
       </div>
     </article>
