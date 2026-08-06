@@ -35,7 +35,12 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
   <header class="home-news-header">
     <h2 id="home-news-heading">News</h2>
   </header>
-  <div class="home-news-list"></div>
+  <div class="home-news-list news-list">
+    <article class="news-item">
+      <time datetime="2026-08">Aug. 2026</time>
+      <p><strong>Move to UTK.</strong> I joined the University of Tennessee, Knoxville as a Ph.D. student.</p>
+    </article>
+  </div>
 </section>
 
 <div class="home-details-grid">
