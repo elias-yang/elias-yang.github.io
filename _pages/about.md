@@ -92,7 +92,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <img src="/assets/img/publications/ums-pipeline.webp" alt="UMS training pipeline for multi-agent and single-agent 3D perception" width="1703" height="792" loading="lazy" decoding="async">
       </a>
       <div class="home-publication-content">
-        <h3><a href="/publications/#yang2026cooperative">Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views</a></h3>
+        <h3><a href="/projects/ums/">Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views</a></h3>
         <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
         <p class="home-publication-venue">CVPR, 2026</p>
         <div class="home-publication-actions">
@@ -107,7 +107,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <img src="/assets/img/publications/da3d-pipeline.webp" alt="DA3D domain-aware multimodal 3D detection pipeline" width="1744" height="1227" loading="lazy" decoding="async">
       </a>
       <div class="home-publication-content">
-        <h3><a href="/publications/#yang2025da3d">DA3D: Domain-Aware Dynamic Adaptation for All-Weather Multimodal 3D Detection</a></h3>
+        <h3><a href="/projects/da3d/">DA3D: Domain-Aware Dynamic Adaptation for All-Weather Multimodal 3D Detection</a></h3>
         <p class="home-publication-authors"><strong>Haochen Yang</strong> et al.</p>
         <p class="home-publication-venue">ACM MM, 2025</p>
         <div class="home-publication-actions">
@@ -122,7 +122,7 @@ My recent work explores robust multimodal 3D perception, cooperative perception,
         <img src="/assets/img/publications/darkdriving-pipeline.webp" alt="DarkDriving automatic day-and-night trajectory tracking and pose matching pipeline" width="1489" height="865" loading="lazy" decoding="async">
       </a>
       <div class="home-publication-content">
-        <h3><a href="/publications/#wang2026darkdriving">DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving</a></h3>
+        <h3><a href="/projects/darkdriving/">DarkDriving: A Real-World Day and Night Aligned Dataset for Autonomous Driving</a></h3>
         <p class="home-publication-authors">Wuqi Wang, <strong>Haochen Yang</strong>, et al.</p>
         <p class="home-publication-venue">ICRA, 2026</p>
         <div class="home-publication-actions">
