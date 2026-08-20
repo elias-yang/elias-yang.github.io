@@ -1,0 +1,157 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views | Haochen Yang </title> <meta name="author" content="Haochen Yang"> <meta name="description" content="Project page for UMS, accepted at CVPR 2026."> <meta name="keywords" content="Haochen Yang, autonomous driving, multimodal perception, federated learning, vision-language-action models, digital twins"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 1040px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Manrope:400,500,600,700|Newsreader:400,500,600,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=e272beb2a356f3d9abedbe97e457f5c2"> <link rel="canonical" href="https://elias-yang.github.io/projects/ums/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Haochen Yang </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Haochen Yang </a> </li> <li class="nav-item "> <a class="nav-link" href="/news/">News </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views</h1> <p class="post-description">Project page for UMS, accepted at CVPR 2026.</p> </header> <article> <link rel="stylesheet" href="/assets/css/reference-style.css?v=48"> <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans%7CNoto+Sans%7CCastoro"> <div class="paper-project-page paper-project-page--spar"> <div class="paper-project-authors" aria-label="Authors"> <span class="author-block"><a href="/">Haochen Yang</a><sup>1</sup>,</span> <span class="author-block"><span class="paper-project-author">Baolu Li</span><sup>1</sup>,</span> <span class="author-block"><span class="paper-project-author">Lei Li</span><sup>1</sup>,</span> <span class="author-block"><span class="paper-project-author">Delin Ren</span><sup>1</sup>,</span> <span class="author-block"><span class="paper-project-author">Jiacheng Guo</span><sup>1</sup>,</span> <span class="author-block"><span class="paper-project-author">Minghai Qin</span><sup>1</sup>,</span> <span class="author-block"><a href="https://sites.google.com/view/tianyun-zhang" target="_blank" rel="noopener noreferrer">Tianyun Zhang</a><sup>1</sup>,</span> <span class="author-block"><a href="https://hongkaiyu.github.io/" target="_blank" rel="noopener noreferrer">Hongkai Yu</a><sup>1</sup></span> </div> <div class="paper-project-affiliations"> <span class="author-block"><sup>1</sup>Cleveland State University</span> </div> <a class="paper-project-institution-logo" href="https://www.csuohio.edu/" target="_blank" rel="noopener noreferrer" aria-label="Cleveland State University"> <img src="/assets/img/projects/ums/cleveland-state-university-logo.jpg" alt="Cleveland State University" width="533" height="123"> </a> <div class="paper-project-actions" aria-label="Paper resources"> <a href="https://arxiv.org/pdf/2604.05354" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> Paper</a> <a href="https://arxiv.org/abs/2604.05354" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a> <a href="https://github.com/elias-yang/UMS" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a> </div> <figure class="paper-project-hero"> <div class="paper-project-media"> <img src="/assets/img/projects/ums/figure-02.webp" alt="UMS pipeline for unsupervised multi-agent and single-agent 3D perception" width="1336" height="586"> </div> </figure> <section id="ums-overview"> <h2>Abstract</h2> <p>UMS is an unsupervised framework that uses cooperative observations to learn both multi-agent and single-agent 3D object detection without human-annotated 3D boxes. Denser point clouds improve proposal classification, while geometric and semantic agreement across views supplies supervision to the single-agent branch.</p> </section> <section id="ums-summary-video" class="ums-summary-video-section"> <h2>Summary Video</h2> <div class="ums-youtube-embed"> <iframe src="https://www.youtube-nocookie.com/embed/6lC8i4qUG18" title="UMS: Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe> </div> </section> <section id="ums-motivation"> <h2>Motivation</h2> <figure class="paper-project-figure paper-project-figure--compact"> <div class="paper-project-media"> <img src="/assets/img/projects/ums/figure-01.webp" alt="Benefits of cooperative views for point-cloud density and cross-view consensus" width="872" height="723" loading="lazy" decoding="async"> </div> </figure> </section> <section id="ums-method"> <h2>Method</h2> <p>UMS combines a Proposal Purifying Filter for removing unreliable candidate boxes, Progressive Proposal Stabilizing for easy-to-hard refinement, and Cross-View Consensus Learning for transferring multi-view geometric and semantic agreement to the single-agent detector.</p> <div class="paper-project-gallery paper-project-gallery--single"> <figure class="paper-project-figure"> <div class="paper-project-media"> <img src="/assets/img/projects/ums/figure-03.webp" alt="Proposal Purifying Filter and Progressive Proposal Stabilizing modules" width="1346" height="426" loading="lazy" decoding="async"> </div> </figure> </div> </section> <section id="ums-results"> <h2>Results</h2> <p>UMS achieves the strongest unsupervised results on both V2V4Real and OPV2V. At IoU 0.5, it reaches 52.03 AP for multi-agent and 44.27 AP for single-agent perception on V2V4Real; on OPV2V, it reaches 83.89 and 71.30 AP, respectively.</p> <div class="paper-project-gallery paper-project-gallery--single"> <figure class="paper-project-figure"> <div class="paper-project-media"> <img src="/assets/img/projects/ums/table-01.webp" alt="UMS multi-agent and single-agent detection results on V2V4Real and OPV2V" width="1326" height="464" loading="lazy" decoding="async"> </div> </figure> </div> </section> <section id="ums-analysis"> <h2>Ablation Study</h2> <p>The core ablation isolates Proposal Purifying Filter, Progressive Proposal Stabilizing, and Cross-View Consensus Learning, showing how the components jointly improve multi-agent and single-agent perception.</p> <div class="paper-project-gallery paper-project-gallery--single"> <figure class="paper-project-figure"> <div class="paper-project-media"> <img src="/assets/img/projects/ums/table-04.webp" alt="Ablation study of each UMS component" width="1176" height="402" loading="lazy" decoding="async"> </div> </figure> </div> </section> <section id="ums-qualitative-results" class="ums-video-section"> <h2>Qualitative Results</h2> <div class="ums-video-grid"> <article> <h3>V2V4Real</h3> <video class="ums-results-video" data-src="/assets/video/ums-v2v4real.mp4" poster="/assets/video/ums-v2v4real-poster.jpg" width="1600" height="860" autoplay="" muted="" loop="" playsinline="" preload="none" aria-label="Animated UMS qualitative results on V2V4Real"></video> </article> </div> </section> <section id="ums-bibtex" class="paper-project-citation"> <h2>BibTeX</h2> <pre><code>@inproceedings{yang2026ums,
+  title     = {Unsupervised Multi-Agent and Single-Agent Perception from Cooperative Views},
+  author    = {Yang, Haochen and Li, Baolu and Li, Lei and Ren, Delin and Guo, Jiacheng and Qin, Minghai and Zhang, Tianyun and Yu, Hongkai},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year      = {2026}
+}</code></pre> </section> <script>
+    document.querySelectorAll(".ums-results-video[data-src]").forEach((video) => {
+      const loadVideo = () => {
+        if (video.src) return;
+        video.src = video.dataset.src;
+        video.load();
+        video.play().catch(() => {});
+      };
+
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            if (!entries[0].isIntersecting) return;
+            loadVideo();
+            observer.disconnect();
+          },
+          { rootMargin: "320px 0px" },
+        );
+        observer.observe(video);
+      } else {
+        loadVideo();
+      }
+    });
+  </script> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Haochen Yang. Built with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="external nofollow noopener">al-folio</a> and hosted by GitHub Pages. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMX7QMG89C"></script> <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-YMX7QMG89C");
+</script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-haochen-yang",
+    title: "Haochen Yang",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Selected publications.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "Contact and professional profiles.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
+        },{id: "projects-robust-3d-perception-for-autonomous-driving",
+          title: 'Robust 3D perception for autonomous driving',
+          description: "Cooperative and all-weather multimodal perception for reliable autonomous systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-low-light-driving-perception",
+          title: 'Low-light driving perception',
+          description: "Aligned day-night data and robust perception for dark traffic environments.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-efficient-federated-learning",
+          title: 'Efficient federated learning',
+          description: "Communication- and parameter-efficient multi-task learning for edge intelligence.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-digital-twins-for-medical-devices",
+          title: 'Digital twins for medical devices',
+          description: "Personalized decision support and parameter optimization for implantable devices.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%68%79%61%6E%67%36%30@%76%6F%6C%73.%75%74%6B.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/elias-yang", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=nY-BhuYAAAAJ", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
